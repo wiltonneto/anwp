@@ -1,0 +1,35 @@
+ .post-header .get-it{
+ 	width: 165px;
+ }
+
+  .dot .likes {
+       color: #ED1C24
+  }
+.upmod .fa {
+color: #ED1C24!important
+}
+
+.brand h1 {
+color: #ED1C24
+}
+
+ .brand a .brand a:hover {
+	color: #ED1C24;
+}
+
+  .tml #wp-submit {
+    background: #ED1C24;
+}
+
+a {
+    color: #ED1C24!important;
+}
+.ph-soc-block ul li a, .post-share .fa, .ps-main .fa, .title-link, .post-header .get-it, span.save-collect, .ph-layout-2-body #phsf .post-detail--header--button {
+    color: #fff !important;
+}
+.ph-sm a {
+    color: white !important;
+    }
+ .post-detail--footer--meta--time, .post-detail--footer--meta--time:hover{
+ 	color: #bbb !important;
+ }

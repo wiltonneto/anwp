@@ -1,0 +1,3063 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Hunt Theme\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pluginhunt\n"
+"POT-Creation-Date: 2016-09-29 11:19-0300\n"
+"PO-Revision-Date: 2016-09-29 11:59-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: am-license-menu.php:103
+msgid " Activation"
+msgstr ""
+
+#: am-license-menu.php:104
+msgid " API Key Activation"
+msgstr ""
+
+#: am-license-menu.php:105 am-license-menu.php:331
+msgid "API Key Activation"
+msgstr ""
+
+#: am-license-menu.php:106
+msgid "API Key Deactivation"
+msgstr ""
+
+#: am-license-menu.php:265
+msgid ""
+"The <strong>%s</strong> API Key has not been activated, so the %s is "
+"inactive! %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+
+#: am-license-menu.php:282
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: am-license-menu.php:314 am-license-menu.php:318
+#: inc/includes/class-options-framework-admin.php:202
+msgid "Save Changes"
+msgstr "Salvar Mudanças"
+
+#: am-license-menu.php:335
+msgid "API Key Status"
+msgstr ""
+
+#: am-license-menu.php:339
+msgid "API Key"
+msgstr ""
+
+#: am-license-menu.php:343
+msgid "API Email"
+msgstr ""
+
+#: am-license-menu.php:349
+msgid "API Deactivation"
+msgstr ""
+
+#: am-license-menu.php:353
+msgid "Deactivate API Key"
+msgstr ""
+
+#: am-license-menu.php:365
+msgid "Activated"
+msgstr ""
+
+#: am-license-menu.php:365
+msgid "Deactivated"
+msgstr ""
+
+#: am-license-menu.php:421
+msgid "%s activated. "
+msgstr ""
+
+#: am-license-menu.php:427
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr ""
+
+#: am-license-menu.php:525
+msgid ""
+"The API Key could not be deactivated. Use the API Key Deactivation tab to "
+"manually deactivate the API Key before activating a new API Key."
+msgstr ""
+
+#: am-license-menu.php:560
+msgid "API Key deactivated. "
+msgstr ""
+
+#: am-license-menu.php:633
+msgid "Deactivates an API Key so it can be used on another blog."
+msgstr ""
+
+#: am-license-menu.php:997
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1004
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1011
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+#: am-license-menu.php:1018
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1025
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: am-license-menu.php:1032
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: am-license-menu.php:1039
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1046
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1053
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1060
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: am-license-menu.php:1067
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+#: am-license-menu.php:1074
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: archive-blog.php:47 single-blog.php:22
+msgid "by "
+msgstr ""
+
+#. translators: %s: Name of current post
+#: archive-blog.php:61 single-blog.php:42
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: archive-blog.php:65 archive-blog.php:95
+msgid "Page"
+msgstr "Página"
+
+#: archive-blog.php:80 single-discussions.php:334 single.php:116
+msgid "Posted"
+msgstr "Postado"
+
+#: archive-blog.php:82 short-comments.php:1757 short-comments.php:1843
+#: woocommerce/myaccount/my-address.php:51
+msgid "Edit"
+msgstr "Editar"
+
+#: archive-blog.php:93
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: archive-blog.php:94
+msgid "Next page"
+msgstr "Próxima página"
+
+#: archive-collections-desktop.php:18 archive-collections-mobile.php:18
+#: functions.php:1318 functions.php:1319
+msgid "Featured Collections"
+msgstr "Coleções em Destaque"
+
+#: archive-discussions-desktop.php:32 archive-discussions-mobile.php:26
+#: category-layout-2.php:84 category-mobile.php:79 index-2.php:81
+#: index-mobile.php:75 single-collections-lay2.php:147
+#: single-collections-mobile.php:143 tag.php:81
+#: taxonomy-discussion_category.php:32
+msgid "popular"
+msgstr "popular"
+
+#: archive-discussions-desktop.php:32 archive-discussions-mobile.php:26
+#: category-layout-2.php:84 category-mobile.php:79 index-2.php:81
+#: index-mobile.php:75 single-collections-lay2.php:147
+#: single-collections-mobile.php:143 tag.php:81
+#: taxonomy-discussion_category.php:32
+msgid "newest"
+msgstr "novo"
+
+#: archive-discussions-mobile.php:39
+msgid "Vote"
+msgstr "Vote"
+
+#: archive-discussions-mobile.php:40
+msgid "Topic"
+msgstr "Tópico"
+
+#: archive-discussions-mobile.php:41 functions.php:3329 functions.php:3650
+msgid "Category"
+msgstr "Categoria"
+
+#: author-layout-1.php:79 author-layout-2.php:79
+msgid "Unfollow"
+msgstr "Não Seguir"
+
+#: author-layout-1.php:81 author-layout-2.php:81
+msgid "Follow"
+msgstr "Seguir"
+
+#: author-layout-1.php:89 author-layout-2.php:89
+msgid "Upvoted"
+msgstr ""
+
+#: author-layout-1.php:92 author-layout-2.php:92
+msgid "Submitted"
+msgstr ""
+
+#: author-layout-1.php:100 author-layout-2.php:100 options.php:261
+msgid "Collections"
+msgstr ""
+
+#: author-layout-1.php:105 author-layout-2.php:105 options.php:295
+msgid "Discussions"
+msgstr "Conversas"
+
+#: author-layout-1.php:110 author-layout-2.php:110
+msgid "Followers"
+msgstr ""
+
+#: author-layout-1.php:113 author-layout-2.php:113
+msgid "Following"
+msgstr ""
+
+#: author-layout-1.php:136 author-layout-1.php:300 author-layout-2.php:140
+#: author-layout-2.php:314 category-layout-1.php:135 category-layout-2.php:116
+#: index-1.php:263 index-2.php:259 index-mobile.php:253 search-m.php:86
+#: single-collections-lay1.php:194 single_full.php:56 tag.php:258
+msgid "Today"
+msgstr "Hoje"
+
+#: author-layout-1.php:138 author-layout-1.php:302 author-layout-2.php:142
+#: author-layout-2.php:316 category-layout-1.php:137 category-layout-2.php:118
+#: index-1.php:265 index-2.php:261 index-mobile.php:255 search-m.php:88
+#: single-collections-lay1.php:196 single_full.php:58 tag.php:260
+msgid "Yesterday"
+msgstr "Ontem"
+
+#: author-layout-2.php:285 author-layout-2.php:459 category-layout-2.php:255
+#: category-layout-2.php:265 category-mobile.php:236 category-mobile.php:246
+#: index-2.php:414 index-2.php:424 index-mobile.php:408 index-mobile.php:418
+#: search-2.php:213 search-m.php:241 search-m.php:251
+#: single-collections-lay2.php:321 single-collections-lay2.php:331
+#: single-collections-mobile.php:317 single-collections-mobile.php:327
+#: tag.php:413 tag.php:423
+msgid "Save"
+msgstr "Guardar"
+
+#: category-layout-1.php:268 search-1.php:272
+msgid "Nothing found"
+msgstr "Nada encontrado"
+
+#: category-layout-2.php:313 category-layout-2.php:315 index-2.php:495
+#: index-2.php:497 search-2.php:289 search-2.php:291
+#: single-collections-lay2.php:380 single-collections-lay2.php:382
+#: single-discussions.php:99 single-discussions.php:101 tag.php:494 tag.php:496
+#: woocommerce/archive-product-auctions.php:112
+#: woocommerce/archive-product-auctions.php:114
+#: woocommerce/archive-product.php:98 woocommerce/archive-product.php:100
+msgid "Log in to vote"
+msgstr "Faça o login para votar"
+
+#: comments.php:45
+msgid "No comments yet."
+msgstr "Nenhum comentário ainda."
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "Comentários fechados."
+
+#: content-login.php:20 footer-mobile.php:44 footer.php:38
+msgid "Sign in with Twitter"
+msgstr "Entre usando o Twitter"
+
+#: content-login.php:24 footer-mobile.php:41 footer.php:35
+msgid "Sign in with Facebook"
+msgstr "Entre usando o Facebook"
+
+#: content-login.php:30 single-discussions.php:178 single.php:274
+#: woocommerce/single-product.php:184
+msgid "or"
+msgstr "ou"
+
+#: content-login.php:41
+msgid ""
+"Login failed: You have entered an incorrect Username or password, pease try "
+"again."
+msgstr "O login falhou: usuário ou senha inválidos, tente novamente."
+
+#: content-login.php:64 header.php:232 woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr "Login"
+
+#: content-login.php:83
+msgid "Back to "
+msgstr "Voltar para "
+
+#: footer-mobile.php:31 footer.php:25
+msgid "Sign in to"
+msgstr "Se cadastre em"
+
+#: footer-mobile.php:31 footer.php:25
+msgid "or create an account"
+msgstr "ou crie uma conta"
+
+#: footer-mobile.php:52 footer.php:46
+msgid "Or, login"
+msgstr "ou, faça login"
+
+#: footer-mobile.php:52 footer.php:46
+msgid "normally"
+msgstr "normalmente"
+
+#: footer-mobile.php:57 footer.php:51
+msgid "We will never post to Twitter or Facebook without your permission."
+msgstr "Nós NUNCA vamos postar no seu Twitter ou Facebook sem sua permissão."
+
+#: footer-mobile.php:69 footer.php:63 inc/scripts-styles.php:66
+msgid "Add to Collection"
+msgstr "Adicionar a Coleção"
+
+#: footer-mobile.php:84 footer.php:78
+msgid "Add New"
+msgstr "Criar Novo"
+
+#: footer-mobile.php:86 footer.php:80
+msgid "Collection name"
+msgstr "Nome da Coleção"
+
+#: footer-mobile.php:86 footer.php:80
+msgid "Add"
+msgstr "Adicionar"
+
+#: functions.php:258 welcome-to-pluginhunt/index.php:105
+msgid "Plugin Hunt Theme Official Add ons"
+msgstr ""
+
+#: functions.php:264
+msgid "Popular This - $9.99"
+msgstr ""
+
+#: functions.php:293 functions.php:322
+msgid "Add product media"
+msgstr "Adicione mídias do produto"
+
+#: functions.php:295 functions.php:324
+msgid "Enter the URL of an image or YouTube video:"
+msgstr "Insira a URL de uma imagem ou vídeo do YouTube:"
+
+#: functions.php:304 functions.php:333
+msgid "Add media"
+msgstr "Adicionar mídia"
+
+#: functions.php:384
+msgid ""
+"Welcome to the Plugin Hunt WordPress Theme. This theme gives you out of the "
+"box functionailty to run a website just like Product Hunt"
+msgstr ""
+
+#: functions.php:385
+msgid ""
+"Using the theme is super simple, but if you get stuck the documentation is "
+"below"
+msgstr ""
+
+#: functions.php:389
+msgid "Read Documentation"
+msgstr ""
+
+#: functions.php:475
+msgid "Your tagline"
+msgstr ""
+
+#: functions.php:481
+msgid "Enter your tagline. This will be shown next to comments. Keep it brief."
+msgstr ""
+
+#: functions.php:846 short-comments.php:1792 short-comments.php:1847
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: functions.php:856
+msgid " Reply"
+msgstr "Responder"
+
+#: functions.php:857
+msgid "tweet"
+msgstr ""
+
+#: functions.php:860 single-discussions.php:336 single.php:118
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "há %s"
+
+#: functions.php:888
+msgctxt "post type general name"
+msgid "Collections"
+msgstr "Coleções"
+
+#: functions.php:889
+msgctxt "post type singular name"
+msgid "Collection"
+msgstr "Coleção"
+
+#: functions.php:890
+msgctxt "admin menu"
+msgid "Collections"
+msgstr "Coleções"
+
+#: functions.php:891
+msgctxt "add new on admin bar"
+msgid "Collection"
+msgstr "Coleção"
+
+#: functions.php:892 functions.php:1485 functions.php:3689
+msgctxt "blog"
+msgid "Add New"
+msgstr "Criar Novo"
+
+#: functions.php:893
+msgid "Add New Collection"
+msgstr "Criar Nova Coleção"
+
+#: functions.php:894
+msgid "New Collection"
+msgstr "Nova Coleção"
+
+#: functions.php:895
+msgid "Edit Collection"
+msgstr "Editar Coleção"
+
+#: functions.php:896
+msgid "View Collection"
+msgstr "Ver Coleção"
+
+#: functions.php:897
+msgid "All Collections"
+msgstr "Todas as Coleções"
+
+#: functions.php:898
+msgid "Search Collection"
+msgstr "Buscar Coleções"
+
+#: functions.php:899
+msgid "Parent Collection:"
+msgstr ""
+
+#: functions.php:900
+msgid "No collections found."
+msgstr "Nenhuma coleção encontrada."
+
+#: functions.php:901
+msgid "No collections found in Trash."
+msgstr "Nenhuma coleção encontrada no lixo."
+
+#: functions.php:1274
+msgid "Discussion Categories"
+msgstr ""
+
+#: functions.php:1275
+msgid "Discussions Widget"
+msgstr ""
+
+#: functions.php:1296 functions.php:1368
+msgid "Categories"
+msgstr ""
+
+#: functions.php:1299 functions.php:1371
+msgid "Title:"
+msgstr ""
+
+#: functions.php:1356 woocommerce/myaccount/my-orders-old.php:81
+msgid "View"
+msgstr ""
+
+#: functions.php:1481
+msgctxt "post type general name"
+msgid "Blogs"
+msgstr "Blogs"
+
+#: functions.php:1482
+msgctxt "post type singular name"
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:1483
+msgctxt "admin menu"
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:1484
+msgctxt "add new on admin bar"
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:1486
+msgid "Add New Blog"
+msgstr "Criar Novo Blog"
+
+#: functions.php:1487
+msgid "New Blog"
+msgstr "Novo Blog"
+
+#: functions.php:1488
+msgid "Edit Blog"
+msgstr "Editar Blog"
+
+#: functions.php:1489
+msgid "View Blog"
+msgstr "Ver Blog"
+
+#: functions.php:1490
+msgid "All Blogs"
+msgstr "Todos os Blogs"
+
+#: functions.php:1491
+msgid "Search Blog"
+msgstr "Buscar Blog"
+
+#: functions.php:1492
+msgid "Parent Blog:"
+msgstr ""
+
+#: functions.php:1493
+msgid "No blogs found."
+msgstr "Nenhum blog encontrado."
+
+#: functions.php:1494
+msgid "No blogs found in Trash."
+msgstr "Nenhum blog encontrado no lixo."
+
+#: functions.php:1563
+msgid "History Updated"
+msgstr "História atualizada"
+
+#: functions.php:1567
+msgid "Admin Tools"
+msgstr "Ferramentas Administrativas"
+
+#: functions.php:1571
+msgid "Update post records to ensure all posts are displayed"
+msgstr ""
+
+#: functions.php:1572
+msgid "Only needed if upgrading from an earlier version"
+msgstr ""
+
+#: functions.php:1576
+msgid "Update History"
+msgstr ""
+
+#: functions.php:1808 functions.php:1826
+msgid "Featured"
+msgstr "Em Destaque"
+
+#: functions.php:1822
+msgid "Check if this is a featured collection: "
+msgstr "Marque se isso for uma coleção de destaque: "
+
+#: functions.php:2136
+msgid "Access Request"
+msgstr ""
+
+#: functions.php:2137
+msgid "Someone has requested access to post content"
+msgstr ""
+
+#: functions.php:2199 single-discussions.php:266 single-discussions.php:326
+#: single.php:108 single.php:363 woocommerce/single-product.php:273
+msgid "View Profile"
+msgstr "Ver Perfil"
+
+#: functions.php:2455
+msgid "External Link"
+msgstr "Link Externo"
+
+#: functions.php:2467
+msgid "External link that this post title redirects to"
+msgstr "Link externo que o título desse post redireciona para"
+
+#: functions.php:2546
+msgid "Someone has flagged"
+msgstr "Alguém marcou"
+
+#: functions.php:2548
+msgid "This is a note to let you know someone has flagged: "
+msgstr "Essa é uma mensagem para lhe avisar que alguém marcou: "
+
+#: functions.php:2548
+msgid " as inappropriate. The reason is:  "
+msgstr "como não inapropriado. A razão é: "
+
+#: functions.php:2591
+msgid "Check out"
+msgstr "Veja"
+
+#: functions.php:2593
+msgid "I thought you might be interested in "
+msgstr "Imagino que você pode se interessar em "
+
+#: functions.php:2593
+msgid " on "
+msgstr " em "
+
+#: functions.php:2749
+msgid "Your email"
+msgstr "Seu email"
+
+#: functions.php:2750
+msgid "Subscribe"
+msgstr "Inscrever"
+
+#: functions.php:3043 inc/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:3044 inc/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:3045 inc/class-tgm-plugin-activation.php:163
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:3046
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:3047 inc/class-tgm-plugin-activation.php:165
+#, fuzzy
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema requiere el siguiente plugin: %1$s."
+msgstr[1] ""
+
+#: functions.php:3048 inc/class-tgm-plugin-activation.php:166
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el siguiente plugin: %1$s."
+msgstr[1] ""
+
+#: functions.php:3049 inc/class-tgm-plugin-activation.php:167
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Lo sentimos, pero Usted no tiene los permisos correctos para instalar el "
+"plugin %s. Póngase en contacto con el administrador de este sitio en busca "
+"de ayuda en conseguir el plugin instalado."
+msgstr[1] ""
+
+#: functions.php:3050 inc/class-tgm-plugin-activation.php:168
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin requerido está inactivo: %1$s."
+msgstr[1] ""
+
+#: functions.php:3051 inc/class-tgm-plugin-activation.php:169
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está actualmente inactivo: %1$s."
+msgstr[1] ""
+
+#: functions.php:3052 inc/class-tgm-plugin-activation.php:170
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Lo sentimos, pero Usted no tiene los permisos correctos para activar el "
+"plugin %s. Póngase en contacto con el administrador de este sitio en busca "
+"de ayuda en conseguir el plugin activado."
+msgstr[1] ""
+
+#: functions.php:3053 inc/class-tgm-plugin-activation.php:171
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"El siguiente plugin necesita ser actualizado a su última versión para "
+"asegurar la compatibilidad máxima con este tema: %1$s."
+msgstr[1] ""
+
+#: functions.php:3054 inc/class-tgm-plugin-activation.php:172
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Lo sentimos, pero Usted no tiene los permisos correctos para actualizar el "
+"plugin %s. Póngase en contacto con el administrador de este sitio en busca "
+"de ayuda en conseguir el plugin actualizado."
+msgstr[1] ""
+
+#: functions.php:3055 inc/class-tgm-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comienza la instalación del plug-in"
+msgstr[1] ""
+
+#: functions.php:3056 inc/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comienza la activación del plug-in"
+msgstr[1] ""
+
+#: functions.php:3057 inc/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:3058 inc/class-tgm-plugin-activation.php:177
+#: inc/class-tgm-plugin-activation.php:1945
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:3059
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:3275 functions.php:3287 functions.php:3298
+msgid "Hunt it"
+msgstr ""
+
+#: functions.php:3276 functions.php:3299
+msgid "Discuss it"
+msgstr ""
+
+#: functions.php:3288 functions.php:3300
+msgid "Sell it"
+msgstr ""
+
+#: functions.php:3315
+msgid "Read More"
+msgstr "Saiba Mais"
+
+#: functions.php:3352
+msgid "Discussion"
+msgstr "Conversa"
+
+#: functions.php:3355
+msgid "What do you want to discuss "
+msgstr ""
+
+#: functions.php:3375
+msgid "Link"
+msgstr ""
+
+#: functions.php:3399
+msgid "Title"
+msgstr "Título"
+
+#: functions.php:3402
+msgid "Discussion title"
+msgstr "Título da discussão"
+
+#: functions.php:3421 functions.php:3485 short-comments.php:2054
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr "Nome"
+
+#: functions.php:3424 functions.php:3488
+msgid "Enter the product’s name"
+msgstr "Escreva o nome do produto"
+
+#: functions.php:3441
+msgid "Price"
+msgstr "Preço"
+
+#: functions.php:3444
+msgid "Enter the product’s price"
+msgstr ""
+
+#: functions.php:3462
+msgid "Reserve price"
+msgstr ""
+
+#: functions.php:3465
+msgid "Enter the product’s reserve price"
+msgstr ""
+
+#: functions.php:3519
+msgid "Condition"
+msgstr ""
+
+#: functions.php:3523
+msgid "New"
+msgstr ""
+
+#: functions.php:3524
+msgid "Used"
+msgstr ""
+
+#: functions.php:3543 functions.php:3629
+#: inc/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: functions.php:3547
+msgid "Buy Now"
+msgstr ""
+
+#: functions.php:3548
+msgid "Auction"
+msgstr ""
+
+#: functions.php:3568
+msgid "Tagline"
+msgstr "Descrição"
+
+#: functions.php:3569
+msgid "Describe the product briefly"
+msgstr "Descreva o produto em poucas palavras"
+
+#: functions.php:3587 functions.php:3608
+msgid "Description"
+msgstr ""
+
+#: functions.php:3590 functions.php:3611
+msgid "Describe the product"
+msgstr "Descreva o produto"
+
+#: functions.php:3671
+msgid "Availibility"
+msgstr "Disponibilidade"
+
+#: functions.php:3685
+msgctxt "post type general name"
+msgid "Discussions"
+msgstr "Conversas"
+
+#: functions.php:3686
+msgctxt "post type singular name"
+msgid "Discussion"
+msgstr "Conversa"
+
+#: functions.php:3687
+msgctxt "admin menu"
+msgid "Discussions"
+msgstr "Conversas"
+
+#: functions.php:3688
+msgctxt "add new on admin bar"
+msgid "Discussion"
+msgstr "Conversa"
+
+#: functions.php:3690
+msgid "Add New Discussion"
+msgstr "Adicionar Nova Conversa"
+
+#: functions.php:3691
+msgid "New Discussion"
+msgstr "Nova Conversa"
+
+#: functions.php:3692
+msgid "Edit Discussion"
+msgstr "Editar Conversa"
+
+#: functions.php:3693
+msgid "View Discussion"
+msgstr "Ver Conversa"
+
+#: functions.php:3694
+msgid "All Discussions"
+msgstr "Todas Conversas"
+
+#: functions.php:3695
+msgid "Search discussions"
+msgstr ""
+
+#: functions.php:3696
+msgid "Parent Discussion:"
+msgstr ""
+
+#: functions.php:3697
+msgid "No Discussions found."
+msgstr ""
+
+#: functions.php:3698
+msgid "No Discussions found in Trash."
+msgstr ""
+
+#: functions.php:3726
+msgctxt "taxonomy general name"
+msgid "Type"
+msgstr ""
+
+#: functions.php:3727
+msgctxt "taxonomy singular name"
+msgid "Type"
+msgstr ""
+
+#: functions.php:3728
+msgid "Search Types"
+msgstr ""
+
+#: functions.php:3729
+msgid "All Types"
+msgstr ""
+
+#: functions.php:3730
+msgid "Parent Type"
+msgstr ""
+
+#: functions.php:3731
+msgid "Parent Type:"
+msgstr ""
+
+#: functions.php:3732
+msgid "Edit Type"
+msgstr ""
+
+#: functions.php:3733
+msgid "Update Type"
+msgstr ""
+
+#: functions.php:3734
+msgid "Add New Type"
+msgstr ""
+
+#: functions.php:3735
+msgid "New Type"
+msgstr ""
+
+#: functions.php:3749
+msgctxt "taxonomy general name"
+msgid "Availability"
+msgstr ""
+
+#: functions.php:3750
+msgctxt "taxonomy singular name"
+msgid "Availibility"
+msgstr "Disponibilidade"
+
+#: functions.php:3751
+msgid "Search Availibilities"
+msgstr ""
+
+#: functions.php:3752
+msgid "All Availibilities"
+msgstr ""
+
+#: functions.php:3753
+msgid "Parent Availibility"
+msgstr ""
+
+#: functions.php:3754
+msgid "Parent Availibility:"
+msgstr ""
+
+#: functions.php:3755
+msgid "Edit Availibility"
+msgstr ""
+
+#: functions.php:3756
+msgid "Update Availibility"
+msgstr ""
+
+#: functions.php:3757
+msgid "Add New Availibility"
+msgstr ""
+
+#: functions.php:3758
+msgid "New Availibility"
+msgstr ""
+
+#: functions.php:3772
+msgctxt "taxonomy general name"
+msgid "Discussion Categories"
+msgstr ""
+
+#: functions.php:3773
+msgctxt "taxonomy singular name"
+msgid "Discussion Category"
+msgstr ""
+
+#: functions.php:3774
+msgid "Search Discussion Categories"
+msgstr ""
+
+#: functions.php:3775
+msgid "All Discussion Categories"
+msgstr ""
+
+#: functions.php:3776
+msgid "Parent Discussion Category"
+msgstr ""
+
+#: functions.php:3777
+msgid "Parent Discussion Category:"
+msgstr ""
+
+#: functions.php:3778
+msgid "Edit Discussion Category"
+msgstr ""
+
+#: functions.php:3779
+msgid "Update Discussion Category"
+msgstr ""
+
+#: functions.php:3780
+msgid "Add New Discussion Category"
+msgstr ""
+
+#: functions.php:3781
+msgid "New Discussion Category Name"
+msgstr ""
+
+#: functions.php:3794
+msgctxt "taxonomy general name"
+msgid "Discussion Tags"
+msgstr ""
+
+#: functions.php:3795
+msgctxt "taxonomy singular name"
+msgid "Discussion Tag"
+msgstr ""
+
+#: functions.php:3796
+msgid "Search Discussion Tags"
+msgstr ""
+
+#: functions.php:3797
+msgid "All Discussion Tags"
+msgstr ""
+
+#: functions.php:3798
+msgid "Parent Discussion Tag"
+msgstr ""
+
+#: functions.php:3799
+msgid "Parent Discussion Tag:"
+msgstr ""
+
+#: functions.php:3800
+msgid "Edit Discussion Tag"
+msgstr ""
+
+#: functions.php:3801
+msgid "Update Discussion Tag"
+msgstr ""
+
+#: functions.php:3802
+msgid "Add New Discussion Tag"
+msgstr ""
+
+#: functions.php:3803
+msgid "New Mash Discussion Name"
+msgstr ""
+
+#: header-mobile.php:191 header.php:302
+msgid "of"
+msgstr ""
+
+#: header-mobile.php:256 header.php:363
+msgid "Warning"
+msgstr ""
+
+#: header-mobile.php:256 header.php:363
+msgid "You have not filled in the form correctly"
+msgstr ""
+
+#: header-mobile.php:295 header.php:403
+msgid "Media"
+msgstr "Mídia"
+
+#: header-mobile.php:299 header.php:407
+msgid "Paste a direct link to an image or a YouTube video"
+msgstr "Insira a URL de uma imagem ou vídeo do YouTube"
+
+#: header-mobile.php:301 header.php:409
+msgid "Upload an image"
+msgstr "Enviar uma imagem"
+
+#: header-mobile.php:329 header.php:437
+msgid "Posting on "
+msgstr "Postando em "
+
+#: header-mobile.php:330 header.php:438
+msgid "An invite is needed to submit content"
+msgstr ""
+
+#: header-mobile.php:339 header.php:447
+msgid "Learn more about invites"
+msgstr "Veja mais sobre os convites"
+
+#: header.php:173 searchform.php:5
+msgid "Search.."
+msgstr "Buscar..."
+
+#: header.php:175 single-discussions.php:295 single.php:257
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr "Enviar"
+
+#: header.php:221
+msgid "My Profile"
+msgstr "Meu Perfil"
+
+#: header.php:222
+msgid "Edit Profile"
+msgstr ""
+
+#: header.php:223
+msgid "Logout"
+msgstr "Logout"
+
+#: inc/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr "Algo deu errado."
+
+#: inc/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr "Voltar ao painel"
+
+#: inc/class-tgm-plugin-activation.php:178
+#: inc/class-tgm-plugin-activation.php:1636
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgstr "El siguiente plugin ha sido activado con éxito:"
+
+#: inc/class-tgm-plugin-activation.php:179
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:534
+#: inc/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr "Obrigatório"
+
+#: inc/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: inc/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr "Não Instalador"
+
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não ativo"
+
+#: inc/class-tgm-plugin-activation.php:1290
+#: inc/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/class-tgm-plugin-activation.php:1312
+#: inc/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr "Ativar"
+
+#: inc/class-tgm-plugin-activation.php:1361
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1380
+#: woocommerce/myaccount/my-orders-old.php:34
+#: woocommerce/myaccount/my-orders-old.php:55
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1929
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2059
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr "Mostrar Detalhes"
+
+#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr "Esconder Detalhes"
+
+#: inc/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2061
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2066
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2067
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2068
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2070
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:91
+#: inc/includes/class-options-framework-admin.php:92
+msgid "Theme Options"
+msgstr "Opções do tema"
+
+#: inc/includes/class-options-framework-admin.php:203
+msgid "Restore Defaults"
+msgstr "Restaurar Padrão"
+
+#: inc/includes/class-options-framework-admin.php:203
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:235
+msgid "Default options restored."
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:289
+msgid "Options saved."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "Nenhum arquivo escolhido"
+
+#: inc/includes/class-options-media-uploader.php:65
+#: inc/includes/class-options-media-uploader.php:118
+msgid "Upload"
+msgstr "Enviar"
+
+#: inc/includes/class-options-media-uploader.php:67
+#: inc/includes/class-options-media-uploader.php:119
+msgid "Remove"
+msgstr "Remover"
+
+#: inc/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "Ver arquivo"
+
+#: inc/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/invite-list.php:23
+msgid "invite"
+msgstr "convite"
+
+#: inc/invite-list.php:24
+msgid "invites"
+msgstr "convites"
+
+#: inc/invite-list.php:48
+msgid "No one waiting yet."
+msgstr "Ninguém esperando ainda."
+
+#: inc/invite-list.php:62
+msgid "Author"
+msgstr "Autor"
+
+#: inc/invite-list.php:62
+msgid "Contributor"
+msgstr "Colaborador"
+
+#: inc/invite-list.php:62
+msgid "Decline"
+msgstr "Declinar"
+
+#: inc/invite-list.php:71
+msgid "Upgrade to Author"
+msgstr "Upgrade para Autor"
+
+#: inc/invite-list.php:71
+msgid "Upgrade to Contributer"
+msgstr "Upgrade para Colaborador"
+
+#: inc/invite-list.php:78
+msgid "ID"
+msgstr "ID"
+
+#: inc/invite-list.php:79
+msgid "Photo"
+msgstr "Foto"
+
+#: inc/invite-list.php:80 login-form.php:35 profile-form.php:99
+#: register-form.php:22 woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: inc/invite-list.php:81
+msgid "User Level"
+msgstr "Nível do Usuário"
+
+#: inc/invite-list.php:82
+msgid "Actions"
+msgstr "Ações"
+
+#: inc/invite-list.php:101
+msgid "Make Author"
+msgstr "Tornar Autor"
+
+#: inc/invite-list.php:102
+msgid "Make Contributor"
+msgstr "Tornar Colaborador"
+
+#: index-1.php:444 index-2.php:441 index-mobile.php:435 search-2.php:237
+#: search-m.php:277 tag.php:440
+msgid "No more"
+msgstr "Sem mais"
+
+#: login-form.php:17 lostpassword-form.php:8 register-form.php:9
+msgid "Sign into your account"
+msgstr ""
+
+#: login-form.php:31 profile-form.php:158 register-form.php:28
+msgid "E-mail"
+msgstr ""
+
+#: login-form.php:33
+msgid "Username or E-mail"
+msgstr ""
+
+#: login-form.php:41 woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr ""
+
+#: login-form.php:50
+msgid "Remember Me"
+msgstr ""
+
+#: login-form.php:54
+msgid "Log In"
+msgstr ""
+
+#: lostpassword-form.php:20
+msgid "Username or E-mail:"
+msgstr ""
+
+#: lostpassword-form.php:27
+msgid "Get New Password"
+msgstr ""
+
+#: options.php:26
+msgid "Header"
+msgstr ""
+
+#: options.php:32
+msgid "Main logo"
+msgstr ""
+
+#: options.php:33
+msgid "What is your main website logo (40px x 40px fits best)."
+msgstr ""
+
+#: options.php:39
+msgid "White logo"
+msgstr ""
+
+#: options.php:40
+msgid ""
+"What is your main website logo (40px x 40px fits best) in white (for the "
+"footer and header on pages)."
+msgstr ""
+
+#: options.php:68
+msgid "Layout"
+msgstr ""
+
+#: options.php:98
+msgid "Footer"
+msgstr ""
+
+#: options.php:103
+msgid "Call to action pre text"
+msgstr ""
+
+#: options.php:104
+msgid "Text to input before the CTA button."
+msgstr ""
+
+#: options.php:110
+msgid "Call to action text"
+msgstr ""
+
+#: options.php:111
+msgid "e.g. Buy Now."
+msgstr ""
+
+#: options.php:117
+msgid "Call to action link"
+msgstr ""
+
+#: options.php:118
+msgid "e.g. http://pluginhunt.com/pricing/."
+msgstr ""
+
+#: options.php:124
+msgid "Copyright text"
+msgstr ""
+
+#: options.php:125
+msgid "Copyright text."
+msgstr ""
+
+#: options.php:131
+msgid "Talk to us HTML"
+msgstr ""
+
+#: options.php:132
+msgid "e.g. call us (0800) 123 456."
+msgstr ""
+
+#: options.php:154
+msgid "General"
+msgstr ""
+
+#: options.php:159
+msgid "Get it wording"
+msgstr ""
+
+#: options.php:160
+msgid "Enter the wording for get it."
+msgstr ""
+
+#: options.php:167
+msgid "Logged out users title"
+msgstr ""
+
+#: options.php:168
+msgid "Enter the title message logged out users will see here."
+msgstr ""
+
+#: options.php:175
+msgid "Logged out users paragraph"
+msgstr ""
+
+#: options.php:176
+msgid "Enter the catch-line message logged out users will see here."
+msgstr ""
+
+#: options.php:185
+msgid "Load More"
+msgstr ""
+
+#: options.php:186
+msgid "Enter the message when loading more content."
+msgstr ""
+
+#: options.php:193
+msgid "From email"
+msgstr ""
+
+#: options.php:194
+msgid ""
+"Enter the from email for emails sent from your site (default \"WordPress\")"
+msgstr ""
+
+#: options.php:201
+msgid "Hunting (singluar)"
+msgstr ""
+
+#: options.php:202
+msgid "Enter the singular term for your hunts"
+msgstr ""
+
+#: options.php:209
+msgid "Hunting (plural)"
+msgstr ""
+
+#: options.php:210
+msgid "Enter the plural term for your hunts"
+msgstr ""
+
+#: options.php:217
+msgid "Message when all content loaded"
+msgstr ""
+
+#: options.php:218
+msgid "When all content has loaded"
+msgstr ""
+
+#: options.php:225
+msgid "Show details of product"
+msgstr "Mostrar detalhes do produto"
+
+#: options.php:226
+msgid "Show the details area of the product."
+msgstr "Mostrar a área de detalhes do produto."
+
+#: options.php:232
+msgid "Disclaimer"
+msgstr ""
+
+#: options.php:233
+msgid "Puts a disclaimer on your site"
+msgstr ""
+
+#: options.php:242
+msgid "Grid"
+msgstr ""
+
+#: options.php:247
+msgid "Default to Grid Layout"
+msgstr ""
+
+#: options.php:248
+msgid "Default to Grid Layout."
+msgstr ""
+
+#: options.php:254
+msgid "Hide Grid Toggle"
+msgstr ""
+
+#: options.php:255
+msgid "Show the option to toggle."
+msgstr ""
+
+#: options.php:266
+msgid "Sticky Collections"
+msgstr ""
+
+#: options.php:267
+msgid "Show the collections slide down banner."
+msgstr ""
+
+#: options.php:273
+msgid "Featured Collections Tagline"
+msgstr ""
+
+#: options.php:274
+msgid "On the /collections/ url show this text."
+msgstr ""
+
+#: options.php:282
+msgid "User Profile"
+msgstr ""
+
+#: options.php:287
+msgid "User Profile Link"
+msgstr ""
+
+#: options.php:288
+msgid "Slug for the edit profile link"
+msgstr ""
+
+#: options.php:300
+msgid "Enable Discussions"
+msgstr ""
+
+#: options.php:301
+msgid "Enable discussions section of pluginhunt."
+msgstr ""
+
+#: options.php:307
+msgid "Marketplace"
+msgstr ""
+
+#: options.php:312
+msgid "Enable Marketplace"
+msgstr ""
+
+#: options.php:313
+msgid "To do this you need a multi vendor plugin"
+msgstr ""
+
+#: options.php:319
+msgid "Lock Out"
+msgstr ""
+
+#: options.php:324
+msgid "Lockout"
+msgstr ""
+
+#: options.php:325
+msgid "Message for people who cannot submit content."
+msgstr ""
+
+#: options.php:332 single-discussions.php:195 single.php:291
+#: woocommerce/single-product.php:201
+msgid "FAQ"
+msgstr "FAQ"
+
+#: options.php:333
+msgid "Link to your faq page with information about invites etc."
+msgstr ""
+
+#: options.php:340
+msgid "New Post Form"
+msgstr ""
+
+#: options.php:345
+msgid "Product Title"
+msgstr ""
+
+#: options.php:346
+msgid "Title for new product post form."
+msgstr ""
+
+#: options.php:353
+msgid "Product Sub Title"
+msgstr ""
+
+#: options.php:354
+msgid "sub title for new product post form."
+msgstr ""
+
+#: options.php:361
+msgid "Hunting.."
+msgstr ""
+
+#: options.php:362
+msgid "Text for the on submit button change."
+msgstr ""
+
+#: options.php:369
+msgid "Discuss Title"
+msgstr ""
+
+#: options.php:370
+msgid "Title for new discussion form."
+msgstr ""
+
+#: options.php:377
+msgid "Discuss Sub Title"
+msgstr ""
+
+#: options.php:378
+msgid "sub title for new discussion form."
+msgstr ""
+
+#: options.php:385
+msgid "Woo Product Title"
+msgstr ""
+
+#: options.php:386
+msgid "Title for new woo product form."
+msgstr ""
+
+#: options.php:393
+msgid "Woo Product Sub Title"
+msgstr ""
+
+#: options.php:394
+msgid "sub title for new woo product form."
+msgstr ""
+
+#: options.php:403
+msgid "Show Tag Line"
+msgstr ""
+
+#: options.php:404
+msgid "Show Tag Line or Full Content Input (On = tagline)."
+msgstr ""
+
+#: options.php:410 options.php:411
+msgid "Show Product Type Dropdown."
+msgstr ""
+
+#: options.php:417 options.php:418
+msgid "Show Product Availibility Dropdown."
+msgstr ""
+
+#: options.php:425
+msgid "Button call to action"
+msgstr ""
+
+#: options.php:426
+msgid "Enter your button call to action here."
+msgstr ""
+
+#: options.php:433
+msgid "Mail Chimp"
+msgstr ""
+
+#: options.php:438
+msgid "Mailchimp subscribe box **Must be on PHP 5.3 or higher to use**"
+msgstr ""
+
+#: options.php:439
+msgid "Do you want to use the Mailchimp subscribe box."
+msgstr ""
+
+#: options.php:455
+msgid "Sidebar title"
+msgstr ""
+
+#: options.php:456
+msgid "Enter the sidebar title."
+msgstr ""
+
+#: options.php:464
+msgid "Email capture"
+msgstr ""
+
+#: options.php:465
+msgid "Enter the message above the email capture."
+msgstr ""
+
+#: options.php:472
+msgid "MailChimp API Key"
+msgstr ""
+
+#: options.php:473
+msgid "Enter your MailChimp API Key"
+msgstr ""
+
+#: options.php:480
+msgid "MailChimp List ID"
+msgstr ""
+
+#: options.php:481
+msgid "Enter your MailChimp List ID"
+msgstr ""
+
+#: options.php:488
+msgid "MailChimp Success Message"
+msgstr ""
+
+#: options.php:489
+msgid "Message to show on success"
+msgstr ""
+
+#: options.php:496
+msgid "Color Scheme"
+msgstr ""
+
+#: options.php:501
+msgid "Main Theme Colour"
+msgstr ""
+
+#: options.php:502
+msgid "#da552f by default."
+msgstr ""
+
+#: options.php:509
+msgid "Top Menu Colour"
+msgstr ""
+
+#: options.php:510
+msgid "#ffffff by default."
+msgstr ""
+
+#: options.php:517
+msgid "Secondary Colour"
+msgstr ""
+
+#: options.php:518
+msgid "#efefef selected by default."
+msgstr ""
+
+#: options.php:525
+msgid "New Post Header"
+msgstr ""
+
+#: options.php:526
+msgid "#5898f1 selected by default."
+msgstr ""
+
+#: options.php:533
+msgid "New Discussion Header"
+msgstr ""
+
+#: options.php:534
+msgid "#4dc667 selected by default."
+msgstr ""
+
+#: options.php:541
+msgid "New Woo Product Header"
+msgstr ""
+
+#: options.php:542
+msgid "#f5a623 selected by default."
+msgstr ""
+
+#: options.php:550
+msgid "Not Voted Colour"
+msgstr ""
+
+#: options.php:551
+msgid "Arrow and score colour if not voted."
+msgstr ""
+
+#: options.php:558
+msgid "Voted Colour"
+msgstr ""
+
+#: options.php:559
+msgid "Arrow and score colour if voted."
+msgstr ""
+
+#: options.php:566
+msgid "Score Colour"
+msgstr ""
+
+#: options.php:567
+msgid "Score colour if voted."
+msgstr ""
+
+#: options.php:574
+msgid "Blog Layout"
+msgstr ""
+
+#: options.php:580
+msgid "Blog Logo"
+msgstr ""
+
+#: options.php:581
+msgid "Logo to display on the blog page."
+msgstr ""
+
+#: options.php:587
+msgid "Blog title"
+msgstr ""
+
+#: options.php:588
+msgid "The title for your blog."
+msgstr ""
+
+#: options.php:595
+msgid "Blog tagline"
+msgstr ""
+
+#: options.php:596
+msgid "The tagline for your blog."
+msgstr ""
+
+#: options.php:603
+msgid "Blog footer call to action"
+msgstr ""
+
+#: options.php:604
+msgid "The text in the footer button."
+msgstr ""
+
+#: options.php:627
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:632
+msgid "Custom CSS for desktop"
+msgstr ""
+
+#: options.php:633
+msgid "Enter your custom CSS for desktop here."
+msgstr ""
+
+#: options.php:640
+msgid "Custom CSS for mobile"
+msgstr ""
+
+#: options.php:641
+msgid "Enter your custom CSS for mobile here."
+msgstr ""
+
+#: options.php:649
+msgid "Google Analytics"
+msgstr ""
+
+#: options.php:654
+msgid "Tracking code"
+msgstr ""
+
+#: options.php:655
+msgid ""
+"Enter your analytics tracking code here (without the &#x3C;script&#x3E;"
+"&#x3C;/script&#x3E; tags)."
+msgstr ""
+
+#: options.php:662
+msgid "Socials"
+msgstr ""
+
+#: options.php:667
+msgid "Twitter Handle"
+msgstr ""
+
+#: options.php:668
+msgid "Enter your twitter handle here e.g. @epicplugins"
+msgstr ""
+
+#: options.php:675
+msgid "Slider"
+msgstr ""
+
+#: options.php:680 options.php:681
+msgid "Show Slider."
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:152
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:321
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:348
+msgid "Epic News"
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:357
+msgid "Share the love"
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:376
+msgid "Other Plugins"
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:729
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:734
+msgid "An unknown error occurred"
+msgstr ""
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:927 single_full.php:163
+msgid "Sorry, no posts matched your criteria."
+msgstr "Desculpa, nenhum post dentro do seu critério."
+
+#: plugins/wpeddit-plugin/wpeddit-plugin.php:946
+msgid "Ranking"
+msgstr ""
+
+#: profile-form.php:45 profile-form.php:58
+msgid "Your Details"
+msgstr "Seus Detalhes"
+
+#: profile-form.php:46 profile-form.php:59
+msgid "About you"
+msgstr "Sobre você"
+
+#: profile-form.php:47 profile-form.php:60
+msgid "Your Account"
+msgstr ""
+
+#: profile-form.php:48 profile-form.php:61
+msgid "Photo and Tagline"
+msgstr ""
+
+#: profile-form.php:84
+msgid "Toolbar"
+msgstr ""
+
+#: profile-form.php:87
+msgid "Show Toolbar when viewing site"
+msgstr ""
+
+#: profile-form.php:100
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: profile-form.php:104
+msgid "First Name"
+msgstr ""
+
+#: profile-form.php:109
+msgid "Last Name"
+msgstr ""
+
+#: profile-form.php:114
+msgid "Nickname"
+msgstr ""
+
+#: profile-form.php:114 profile-form.php:158
+msgid "(required)"
+msgstr ""
+
+#: profile-form.php:119
+msgid "Display name publicly as"
+msgstr ""
+
+#: profile-form.php:166
+msgid ""
+"There is a pending change of your e-mail to %1$s. <a href=\"%2$s\">Cancel</a>"
+msgstr ""
+
+#: profile-form.php:175 short-comments.php:2058
+msgid "Website"
+msgstr ""
+
+#: profile-form.php:191
+msgid "About Yourself"
+msgstr ""
+
+#: profile-form.php:195
+msgid "Biographical Info"
+msgstr ""
+
+#: profile-form.php:197
+msgid ""
+"Share a little biographical information to fill out your profile. This is "
+"shown on your profile."
+msgstr ""
+
+#: profile-form.php:210
+msgid "Account Management"
+msgstr ""
+
+#: profile-form.php:213
+msgid "New Password"
+msgstr ""
+
+#: profile-form.php:216
+msgid "Generate Password"
+msgstr ""
+
+#: profile-form.php:222
+msgid "Hide password"
+msgstr ""
+
+#: profile-form.php:224
+msgid "Hide"
+msgstr ""
+
+#: profile-form.php:226
+msgid "Cancel password change"
+msgstr ""
+
+#: profile-form.php:227 single-discussions.php:295 single-discussions.php:353
+#: single.php:136 single.php:257 woocommerce/myaccount/my-orders-old.php:75
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: profile-form.php:233
+msgid "Repeat New Password"
+msgstr ""
+
+#: profile-form.php:236
+msgid "Type your new password again."
+msgstr ""
+
+#: profile-form.php:240
+msgid "Confirm Password"
+msgstr ""
+
+#: profile-form.php:244
+msgid "Confirm use of weak password"
+msgstr ""
+
+#: profile-form.php:265
+msgid "Update Profile"
+msgstr ""
+
+#: register-form.php:34
+msgid "Registration confirmation will be e-mailed to you."
+msgstr ""
+
+#: register-form.php:37 woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr "Cadastre-se"
+
+#: search-1.php:82 search-2.php:36 search-m.php:29
+msgid "result"
+msgstr "resultado"
+
+#: search-1.php:84 search-2.php:38 search-m.php:31
+msgid "results"
+msgstr "resultados"
+
+#: search-1.php:92 search-2.php:46 search-m.php:39
+msgid "Products for "
+msgstr "Produtos para "
+
+#: searchform.php:4
+msgid "Search this site:"
+msgstr "Buscar nesse site:"
+
+#: short-comments.php:29
+msgid "Anonymous"
+msgstr ""
+
+#: short-comments.php:724 short-comments.php:1217
+msgid "% Comments"
+msgstr ""
+
+#: short-comments.php:726 short-comments.php:1215
+msgid "No Comments"
+msgstr ""
+
+#: short-comments.php:728 short-comments.php:1216
+msgid "1 Comment"
+msgstr ""
+
+#: short-comments.php:877 short-comments.php:2074
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: short-comments.php:878
+msgid "Trackback"
+msgstr ""
+
+#: short-comments.php:879
+msgid "Pingback"
+msgstr ""
+
+#: short-comments.php:931
+msgid ""
+"Use <code>get_trackback_url()</code> instead if you do not want the value "
+"echoed."
+msgstr ""
+
+#: short-comments.php:1218
+msgid "Comments Off"
+msgstr ""
+
+#: short-comments.php:1228
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: short-comments.php:1263
+msgid "Comment on %s"
+msgstr ""
+
+#: short-comments.php:1299
+msgid "Reply"
+msgstr ""
+
+#: short-comments.php:1300
+msgid "Log in to Reply"
+msgstr ""
+
+#: short-comments.php:1385
+msgid "Leave a Comment"
+msgstr ""
+
+#: short-comments.php:1386
+msgid "Log in to leave a Comment"
+msgstr ""
+
+#: short-comments.php:1440
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: short-comments.php:1526 short-comments.php:2083
+msgid "Leave a Reply"
+msgstr ""
+
+#: short-comments.php:1527 short-comments.php:2084
+#: woocommerce/single-product-reviews.php:69
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: short-comments.php:1757
+msgid "Pingback:"
+msgstr ""
+
+#: short-comments.php:1789
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: short-comments.php:1799
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: short-comments.php:1799
+msgid "(Edit)"
+msgstr ""
+
+#: short-comments.php:1834
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">disse:</span>"
+
+#: short-comments.php:1840
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+#: short-comments.php:2056 woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr ""
+
+#: short-comments.php:2062
+msgid "Required fields are marked %s"
+msgstr "Campos obrigatórios marcados %s"
+
+#: short-comments.php:2076
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Você deve estar <a href=\"%s\">logado</a> para postar um comentário."
+
+#: short-comments.php:2078
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Logado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=“Sair dessa "
+"conta”>Sair?</a>"
+
+#: short-comments.php:2079
+msgid "Your email address will not be published."
+msgstr "Seu email não será publicado."
+
+#: short-comments.php:2080
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"Você pode usar esses marcadores e atributos <abbr title=\"HyperText Markup "
+"Language\">HTML</abbr>: %s"
+
+#: short-comments.php:2085
+msgid "Cancel reply"
+msgstr "Cancelar resposta"
+
+#: short-comments.php:2086
+msgid "Post Comment"
+msgstr "Postar Comentário"
+
+#: single-blog.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: single-collections-lay1.php:59 single-collections-lay1.php:97
+#: single-collections-lay2.php:59 single-collections-lay2.php:97
+#: single-collections-mobile.php:59 single-collections-mobile.php:97
+msgid "Describe the collection briefly"
+msgstr "Descreva a coleção brevemente"
+
+#: single-collections-lay1.php:83 single-collections-lay2.php:83
+#: single-collections-mobile.php:83
+msgid "Delete this collection"
+msgstr ""
+
+#: single-collections-lay1.php:109 single-collections-lay2.php:109
+#: single-collections-mobile.php:109
+msgid "by"
+msgstr ""
+
+#: single-discussions.php:112 single.php:169 woocommerce/single-product.php:108
+msgid "media"
+msgstr "mídia"
+
+#: single-discussions.php:158 single.php:224 woocommerce/single-product.php:163
+msgid "No media yet. Be the first one to"
+msgstr "Sem mídia ainda. Seja o primeiro"
+
+#: single-discussions.php:158 single.php:224 woocommerce/single-product.php:163
+msgid "add media on this product"
+msgstr "a adicionar mídia nesse produto"
+
+#: single-discussions.php:164 single.php:233 woocommerce/single-product.php:172
+msgid "details"
+msgstr "detalhes"
+
+#: single-discussions.php:172 single.php:245
+msgid "discussion"
+msgstr "conversa"
+
+#: single-discussions.php:178 single-discussions.php:184 single.php:274
+#: single.php:280 woocommerce/single-product.php:184
+#: woocommerce/single-product.php:190
+msgid "Commenting is limited to those invited by others in the community"
+msgstr "Comentar é restrito apenas aos usuários convidados."
+
+#: single-discussions.php:178 single.php:274 woocommerce/single-product.php:184
+msgid " Login to continue"
+msgstr " Faça o login para continuar"
+
+#: single-discussions.php:178 single.php:274 woocommerce/single-product.php:184
+msgid "learn more"
+msgstr "saiba mais"
+
+#: single-discussions.php:190 single.php:286 woocommerce/single-product.php:196
+msgid "request access"
+msgstr "solicite o acesso"
+
+#: single-discussions.php:193 single.php:289 woocommerce/single-product.php:199
+msgid "You have been added to the waiting list."
+msgstr "Você foi adicionado a lista de espera."
+
+#: single-discussions.php:195 single.php:291 woocommerce/single-product.php:201
+msgid "Questions? check out our"
+msgstr "Perguntas? Veja nosso"
+
+#: single-discussions.php:209 single.php:305 woocommerce/single-product.php:215
+msgid "share"
+msgstr "compartilhar"
+
+#: single-discussions.php:243 single.php:339 woocommerce/single-product.php:249
+msgid "Upvotes"
+msgstr "Votos"
+
+#: single-discussions.php:294
+msgid "Leave a reply"
+msgstr "Deixe uma resposta"
+
+#: single-discussions.php:347 single.php:130
+msgid "Flag"
+msgstr "Marcar"
+
+#: single-discussions.php:350 single.php:133
+msgid "Why should this be removed ?"
+msgstr "Isso deveria ser removido?"
+
+#: single-discussions.php:351 single.php:134
+msgid "Thank you "
+msgstr "Obrigado"
+
+#: single-discussions.php:351 single.php:134
+msgid " we have received your feedback"
+msgstr " nós recebemos o seu feedback"
+
+#: single-discussions.php:354 single.php:137
+msgid "Send"
+msgstr "Enviar"
+
+#: single.php:83
+msgid "save"
+msgstr "gravar"
+
+#: single.php:380 woocommerce/single-product.php:290
+msgid "tags"
+msgstr ""
+
+#: single.php:385
+msgid "similar products"
+msgstr "produtos semelhantes"
+
+#: single.php:423
+msgid "No similar products yet."
+msgstr "Nenhum produto semelhante ainda."
+
+#: welcome-to-pluginhunt/index.php:111
+msgid "Popular This - $19.99"
+msgstr ""
+
+#: woocommerce/archive-product-auctions.php:42
+msgid "Auctions"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:66
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:49
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:60
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:70
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders-old.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:33
+#: woocommerce/myaccount/my-orders-old.php:52
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:35
+#: woocommerce/myaccount/my-orders-old.php:58
+#: woocommerce/order/old/order-details.php:29
+msgid "Total"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:47
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:49
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:59
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders-old.php:68
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders-old.php:100
+msgid "You have not made any orders yet"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:28
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:25
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:31
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:26
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/old/order-details.php:23
+msgid "Back to my account"
+msgstr ""
+
+#: woocommerce/order/old/order-details.php:24
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/old/order-details.php:28
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:14
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:19
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:33
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:52
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:34
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid " ago"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:40
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:37
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:44
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:46
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:35
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:37
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:41
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:50
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:38
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:39
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:48
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:57
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:24
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:24
+msgid "Product Description"
+msgstr "Descrição do Produto"
+
+#: woocommerce/single-product/up-sells.php:51
+msgid "You may also like&hellip;"
+msgstr "Você pode se interessar&hellip;"
+
+#: woocommerce/single-product-reviews.php:32
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s avaliação para %s"
+msgstr[1] "%s avaliações para %s"
+
+#: woocommerce/single-product-reviews.php:34
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: woocommerce/single-product-reviews.php:55
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product.php:295
+msgid "buy"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Plugin Hunt Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://epicplugins.com/pluginhunt"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin Hunt Theme is a link curating theme for WordPress inspired by the "
+"design of Produt Hunt. It uses the power of WPeddit for the WordPress "
+"ranking algorihms. Grouped by day."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "epicplugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://epicthemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Page Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Search Page Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Right Sidebar"
+msgstr ""
+
+#~ msgid "Continue reading %s"
+#~ msgstr "Continue lendo %s"
+
+#~ msgid "Collections of great plugins, updated daily"
+#~ msgstr "Coleções de novidades, atualizados diariamente"
+
+#~ msgid "Show 1 more "
+#~ msgid_plural "Show %s more "
+#~ msgstr[0] "Mostrar mais 1 "
+#~ msgstr[1] "Mostrar mais %s  "
+
+#~ msgid "Hey there! Please sign in to do that."
+#~ msgstr "Olá! Por favor se cadastre para fazer isso."
+
+#~ msgid "Close"
+#~ msgstr "Fechar"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Sub-title"
+#~ msgstr "Sub-título"
+
+#~ msgid "Call to Action"
+#~ msgstr "Chamada"
+
+#~ msgid "Log in"
+#~ msgstr "Login"
+
+#~ msgid "An invite is needed to submit products"
+#~ msgstr "É necessário um convite para cadastrar produtos"
+
+#~ msgid ""
+#~ "Plugin Hunt is a community of product enthusiasts. Submissions are "
+#~ "accepted by our most active members, specifically those that have been "
+#~ "invited by others in the community."
+#~ msgstr ""
+#~ "O Ache Novidade é uma comunidade apaixonada por novidades. Posts são "
+#~ "aceitos apenas por parte dos nossos membros mais ativos, principalmente "
+#~ "aqueles que foram convidados por outros da comunidade."
+
+#~ msgid "One"
+#~ msgstr "Um"
+
+#~ msgid "Two"
+#~ msgstr "Dois"
+
+#~ msgid "Three"
+#~ msgstr "Três"
+
+#~ msgid "Four"
+#~ msgstr "Quatro"
+
+#~ msgid "Five"
+#~ msgstr "Cinco"
+
+#~ msgid "Featured post"
+#~ msgstr "Post em destaque"
+
+#~ msgid "1 Reply"
+#~ msgstr "1 Resposta"
+
+#~ msgid "% Replies"
+#~ msgstr "% Respostas"

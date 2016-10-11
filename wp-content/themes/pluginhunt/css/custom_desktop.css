@@ -1,0 +1,41 @@
+.ph-layout-2-body .mailchimp-sub .newsletter-box .inputfield{
+				margin-left: 0px;
+			}
+
+.home h4, .category h4{
+	font-weight: 100;
+}
+
+li.tw.ph-sm, .ph_socials .ph-tw{
+	display: none;
+}
+
+.ph-layout-2 .ph-collect {
+    width: 78px;
+    }
+
+ .post-header .get-it{
+ 	width: 165px;
+ }
+
+ .logged-in .ph-hero-page .nav li ul li a{
+  	color:#da552f !important;
+  }
+
+  .tml #wp-submit {
+    background: #ED1C24;
+}
+
+a {
+    color: #ED1C24!important;
+}
+
+.ph-soc-block ul li a, .post-share .fa, .ps-main .fa, .title-link, .post-header .get-it, span.save-collect, .ph-layout-2-body #phsf .post-detail--header--button {
+    color: #fff !important;
+}
+.ph-sm a {
+    color: white !important;
+    }
+ .post-detail--footer--meta--time, .post-detail--footer--meta--time:hover{
+ 	color: #bbb !important;
+ }
