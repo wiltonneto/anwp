@@ -39,3 +39,8 @@ a {
  .post-detail--footer--meta--time, .post-detail--footer--meta--time:hover{
  	color: #bbb !important;
  }
+
+ .header--search-form--field {
+    width: 410px !important;
+    max-width: 415px;
+  }
