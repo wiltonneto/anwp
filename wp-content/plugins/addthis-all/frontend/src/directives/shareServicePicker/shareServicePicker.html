@@ -1,0 +1,123 @@
+<div class="share-service-picker">
+    <h3 translate>service_picker_title</h3>
+
+    <div ng-hide="thirdParty">
+        <input
+            type="radio"
+            ng-model="auto_personalization"
+            name="addthis-{{toolPco}}-service-auto-personalization-on"
+            id="addthis-{{toolPco}}-service-auto-personalization-on"
+            ng-value="true"
+            ng-selected="{{isAutoPersonalized()}}"
+            ng-click="emptyPickedServiceList()"
+        />
+        <div class="radiobutton-details-container">
+            <label
+                for="addthis-{{toolPco}}-service-auto-personalization-on"
+                ng-click="emptyPickedServiceList()"
+            >
+                {{'share_service_picker_disabled_label'|translate}} {{'option_recommended'|translate}}
+            </label>
+            <div class="transclude-here" translate>
+                share_service_picker_disabled_description
+            </div>
+        </div>
+        <input
+            type="radio"
+            ng-model="auto_personalization"
+            name="addthis-{{toolPco}}-service-auto-personalization-off"
+            id="addthis-{{toolPco}}-service-auto-personalization-off"
+            ng-value="false"
+            ng-selected="{{!isAutoPersonalized()}}"
+        />
+        <div class="radiobutton-details-container">
+            <label
+                for="addthis-{{toolPco}}-service-auto-personalization-off"
+                translate
+            >
+                share_service_picker_enabled_label
+            </label>
+            <div class="transclude-here" translate>
+                service_picker_available_choices_description
+            </div>
+        </div>
+    </div>
+
+    <div ng-hide="auto_personalization && !thirdParty" class="share-service-picker-container">
+        <div class="share-service-add-header">
+            <p translate>service_picker_available_choices_label</p>
+        </div>
+        <div class="share-service-delete-header">
+            <p translate>service_picker_selected_choices_label</p>
+        </div>
+
+        <input
+            type="text"
+            class="share-service-add-search"
+            id="query"
+            ng-model="searchString"
+            placeholder="{{'search_input_placeholder'|translate}}"
+        />
+
+        <ol class="share-service-list share-service-add">
+            <li
+                ng-click="addService(service)"
+                ng-repeat="service in serviceOptions | orderBy:'name'"
+                ng-show="!serviceAdded(service) && serviceSearch(service)"
+                alt="{{'service_add_alt'|translate:{'service': (service.displayName|translate)} }}"
+            >
+                <a
+                    tabindex="-1"
+                    class="pull-left share-service-icon addthis_button_{{service.icon}}"
+                >
+                </a>
+                <span class="share-service-name">
+                    {{service.name}}
+                </span>
+                <div
+                    ng-include
+                    src="'/images/cross.svg'"
+                    class="share-service-add-icon add"
+                >
+                </div>
+            </li>
+        </ol>
+
+        <ol class="share-service-list share-service-delete">
+            <li
+                ng-click="deleteService(service)"
+                ng-repeat="service in serviceOptions | orderBy:'rank'"
+                ng-show="serviceAdded(service)"
+                alt="{{'service_add_alt'|translate:{'service': (service.displayName|translate)} }}"
+            >
+                <a
+                    tabindex="-1"
+                    class="pull-left share-service-icon addthis_button_{{service.icon}}"
+                >
+                </a>
+                <span class="share-service-name">
+                    {{service.name}}
+                </span>
+                <div
+                    ng-include
+                    src="'/images/cross.svg'"
+                    class="share-service-delete-icon delete"
+                >
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div ng-show="auto_personalization && !thirdParty">
+        <div
+            integer-select
+            ng-model="numberOfServices"
+            for="addthis-{{toolPco}}-number-of-services"
+            label="{{'select_number_of_buttons_label'|translate}}"
+            min="min"
+            max="max"
+        >
+        </div>
+    </div>
+
+</div>

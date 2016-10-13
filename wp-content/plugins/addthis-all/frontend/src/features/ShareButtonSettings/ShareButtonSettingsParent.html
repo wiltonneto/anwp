@@ -1,0 +1,113 @@
+<div ng-controller="ShareButtonSettingsCtrl">
+    <div class="header-container">
+        <div ng-include class="header-background" src="'/images/logo-pattern.svg'"></div>
+        <div ng-include class="header-logo" src="'/images/addthis-logo.svg'"></div>
+    </div>
+
+    <div
+      class="navigate-back"
+      ng-hide="showToolCards()"
+      ng-click="goBack()"
+    >
+        &lt; <span translate>registered_intro_header_share_tools</span>
+    </div>
+
+    <form
+        name="form"
+        class="css-form form-horizontal"
+        novalidate
+        can-edit-tools-check
+        debug-hot-keys
+    >
+        <section
+            alt="{{'cross_plugin_warnings_section_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/CrossPluginWarnings/CrossPluginWarnings.html'"
+        >
+        </section>
+
+        <!-- Sharing Sidebar -->
+        <section
+            alt="{{'tool_listing_smlsh_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/ShareButtonSettings/smlshCard.html'"
+        >
+        </section>
+        <section
+            alt="{{'tool_settings_smlsh_alt'|translate}}"
+            ng-include
+            src="'/features/ShareButtonSettings/smlshSettings.html'"
+        >
+        </section>
+
+        <!-- Mobile Sharing Toolbar -->
+        <section
+            alt="{{'tool_listing_msd_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/ShareButtonSettings/msdCard.html'"
+        >
+        </section>
+        <section
+            alt="{{'tool_settings_msd_alt'|translate}}"
+            ng-include
+            src="'/features/ShareButtonSettings/msdSettings.html'"
+        >
+        </section>
+
+        <!-- Mobile Toolbar -->
+        <section
+            alt="{{'tool_listing_smlmo_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/ShareButtonSettings/smlmoCard.html'"
+        >
+        </section>
+        <section
+            alt="{{'tool_settings_smlmo_alt'|translate}}"
+            ng-include
+            src="'/features/ShareButtonSettings/smlmoSettings.html'"
+        >
+        </section>
+
+        <!-- (Square) Sharing Buttons -->
+        <section
+            alt="{{'tool_listing_tbx_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/ShareButtonSettings/tbxCard.html'"
+        >
+        </section>
+        <section
+            alt="{{'tool_settings_tbx_alt'|translate}}"
+            ng-include
+            src="'/features/ShareButtonSettings/tbxSettings.html'"
+        >
+        </section>
+
+        <!-- (Third Party) Original Sharing Buttons -->
+        <section
+            alt="{{'tool_listing_scopl_alt'|translate}}"
+            ng-show="showToolCards()"
+            ng-include
+            src="'/features/ShareButtonSettings/scoplCard.html'"
+        >
+        </section>
+        <section
+            alt="{{'tool_settings_scopl_alt'|translate}}"
+            ng-include
+            src="'/features/ShareButtonSettings/scoplSettings.html'"
+        >
+        </section>
+
+        <div
+            ng-show="showToolCards()"
+            class="tool-gallery-card review-nag"
+            review-nag
+        >
+        </div>
+    </form>
+
+</div>

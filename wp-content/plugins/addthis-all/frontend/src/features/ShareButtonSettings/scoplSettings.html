@@ -1,0 +1,36 @@
+<!-- (Square) Sharing Buttons -->
+<div
+    tool-gallery-settings-page
+    save="save"
+    go-back="goBack"
+    feature-settings="shareButtons"
+    tool-pco="scopl"
+    tool-name-msgid="tool_scopl_name"
+    tool-description-msgid="tool_scopl_long_description"
+>
+    <div
+        auto-add-position-picker
+        ng-model="settings.elements"
+        default-class="addthis_native_toolbox"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div
+        share-service-picker
+        third-party
+        services="settings.services"
+        number-of-services="settings.numPreferredServices"
+        min="1"
+        max="10"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div
+        get-the-code
+        widget-name="{{'widget_name_scopl'|translate}}"
+        shortcode="addthis_original_sharing_buttons"
+    >
+    </div>
+</div>

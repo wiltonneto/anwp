@@ -1,0 +1,986 @@
+#. Copyright (c) 2016 AddThis, LLC
+#. GPL2
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: help@addthis.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"Language-Team: help@addthis.com\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language: pl\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. Used as the text for a link to a settings page. This should be generic. It is used in a link which may take user an Advanced Settings setting page, or it page of settings specific one of our tools types (Follow Buttons, Share Buttons, Recommended Content) depending on which plugin it is being used in).
+#, include in addthis-backend domain
+msgid "plugin_listing_settings_link"
+msgstr "Ustawienia"
+
+#. Used as the text for a link to the main plugin settings page that sets up registration and links users AddThis.com accounts to the plugin.
+#. Used as the text for a menu item that when clicked takes the user to the main plugin settings page that sets up registration and links users AddThis.com accounts to the plugin.
+#, include in addthis-backend domain
+msgid "plugin_listing_home_link"
+msgstr "Główna"
+
+#. Used as the text for a menu item that when clicked takes the user to a settings page for advanced settings / global options
+#. Used as the header on the settings page with advanced settings
+#, include in addthis-backend domain
+msgid "menu_item_advanced_settings"
+msgstr "Ustawienia zaawansowane"
+
+#. Used as the text for a menu item that when clicked takes the user to a settings page for configuring follow buttons
+#, include in addthis-backend domain
+msgid "menu_item_follow_button_settings"
+msgstr "Przyciski obserwowania"
+
+#. Used as the text web page's title, which is used by the browser for the window or tab, for the follow buttons settings page
+#. the name of our follow buttons plugin
+#, include in addthis-backend domain
+msgid "plugin_name_follow_buttons"
+msgstr "Przyciski obserwowania AddThis"
+
+#. default title on widgets
+#. verb, declarative, default text put before a set of follow buttons (follow me on twitter, follow me on facebook, etc)
+#, include in addthis-backend domain
+msgid "tool_follow_default_title"
+msgstr "Obserwuj mnie"
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. custom follow buttons allow users select the color and shape of their follow buttons
+#, include in addthis-backend domain
+msgid "widget_name_cflwh"
+msgstr "Przyciski obserwowania - dowolne"
+
+#. widget description
+#. custom follow buttons allow users select the color and shape of their follow buttons
+#, include in addthis-backend domain
+msgid "widget_description_custom_follow_buttons"
+msgstr ""
+"Te dowolne przyciski obserwowania od AddThis pozwalają dopasować wygląd i "
+"wrażenia do własnej strony internetowej."
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+#, include in addthis-backend domain
+msgid "widget_name_flwh"
+msgstr "Przyciski obserwowania - poziome"
+
+#. widget description
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+#, include in addthis-backend domain
+msgid "widget_description_horizontal_follow_buttons"
+msgstr ""
+"Poziome przyciski obserwowania od AddThis pozwalające zwiększyć liczbę "
+"obserwujących."
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+#, include in addthis-backend domain
+msgid "widget_name_flwv"
+msgstr "Przyciski obserwowania - pionowe"
+
+#. widget description
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+#, include in addthis-backend domain
+msgid "widget_description_vertical_follow_buttons"
+msgstr ""
+"Pionowe przyciski obserwowania od AddThis pozwalające zwiększyć liczbę "
+"obserwujących."
+
+#. Used as the text for a menu item that when clicked takes the user to a settings page for recommended content tools
+#, include in addthis-backend domain
+msgid "menu_item_recommended_content_settings"
+msgstr "Rekomendowane treści"
+
+#. Used as the text web page's title, which is used by the browser for the window or tab, for the recommended content settings page
+#, include in addthis-backend domain
+msgid "settings_page_browser_title_recommended_content"
+msgstr "Rekomendowane treści AddThis"
+
+#. default title on widgets
+#. default text put before recommended content for a user to read next
+#, include in addthis-backend domain
+msgid "tool_recommended_content_default_title"
+msgstr "Rekomendowane dla Ciebie"
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. horizontal recommended content will link a sites visitor to other content and slign those link horizontally
+#, include in addthis-backend domain
+msgid "widget_name_horizontal_recommeneded_content"
+msgstr "Rekomendowane treści - poziome"
+
+#. widget description
+#. horizontal recommended content will link a sites visitor to other content and slign those link horizontally
+#, include in addthis-backend domain
+msgid "widget_description_horizontal_recommeneded_content"
+msgstr ""
+"Poziome rekomendowane treści od AddThis ukazujące treści i obrazy będące na "
+"topie lub powiązane tematycznie, aby utrzymać uwagę odwiedzających stronę."
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. vertical recommended content will link a sites visitor to other content and slign those link vertically
+#, include in addthis-backend domain
+msgid "widget_name_vertical_recommeneded_content"
+msgstr "Rekomendowane treści - pionowe"
+
+#. widget description
+#. vertical recommended content will link a sites visitor to other content and slign those link vertically
+#, include in addthis-backend domain
+msgid "widget_description_vertical_recommeneded_content"
+msgstr ""
+"Pionowe rekomendowane treści od AddThis ukazujące treści i obrazy będące na "
+"topie lub powiązane tematycznie, aby utrzymać uwagę odwiedzających stronę."
+
+#. default title on widgets
+#. verb, declarative, default text put before a set of share buttons (share this article/page/url on twitter, on facebook, etc)
+#, include in addthis-backend domain
+msgid "tool_share_default_title"
+msgstr "Udostępniaj"
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. custom sharing buttons allow users select the color and shape of their share buttons
+#, include in addthis-backend domain
+msgid "widget_name_custom_share_buttons"
+msgstr "Przyciski udostępniania"
+
+#. widget description
+#. custom sharing buttons allow users select the color and shape of their share buttons
+#, include in addthis-backend domain
+msgid "widget_description_custom_share_buttons"
+msgstr ""
+"Te dowolne przyciski udostępniania od AddThis pozwalają dopasować wygląd i "
+"wrażenia do własnej strony internetowej."
+
+#. widget name
+#. it's important to not that the ends of these strings will often get cut off on smaller screens, and so put most differentiating parts first
+#. jumbo sharing counter gives users a large number displaying how many shares they've had of an article, annd buttons to encourage users to share the page on social networks.
+#, include in addthis-backend domain
+msgid "widget_name_jumbo_share_counter"
+msgstr "Licznik udostępnień - licznik jumbo"
+
+#. widget description
+#. jumbo sharing counter gives users a large number displaying how many shares they've had of an article, annd buttons to encourage users to share the page on social networks.
+#, include in addthis-backend domain
+msgid "widget_description_jumbo_share_counter"
+msgstr ""
+"Duże przyciski licznika udostępnień od AddThis pozwalają wskazać ile "
+"udostępnień uzyskały Twoje treści."
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. original share buttons show pill shaped buttons for social networks stylized by those social networks (not a unified look and feel)
+#, include in addthis-backend domain
+msgid "widget_name_scopl"
+msgstr "Przyciski udostępniania - oryginalne"
+
+#. widget description
+#. original share buttons show pill shaped buttons for social networks stylized by those social networks (not a unified look and feel)
+#, include in addthis-backend domain
+msgid "widget_description_scopl"
+msgstr ""
+"Oryginalne przyciski udostępniania od AddThis pozwalające zwiększyć liczbę "
+"udostępnień przez odwiedzających w mediach społecznościowych."
+
+#. widget name
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#. responsive sharing buttons adjust their size automatically to a users screen, so that they looks good on phones, tablets and computers
+#, include in addthis-backend domain
+msgid "widget_name_responsive_share_buttons"
+msgstr "Przyciski udostępniania - elastyczne"
+
+#. widget description
+#. responsive sharing buttons adjust their size automatically to a users screen, so that they looks good on phones, tablets and computers
+#, include in addthis-backend domain
+msgid "widget_description_responsive_share_buttons"
+msgstr ""
+"Piękne przyciski udostępniania od AddThis, które dopasowywują się dla "
+"użytkowników mobilnych."
+
+#. Used as the text for a menu item that when clicked takes the user to the sharing buttons settings page
+#. Used as the name for a widget for our basic (square) sharing buttons
+#. widget name
+#. in the widget context, these sharing buttons are simple, clean squares with the logo of a social network and that network's brand's color
+#. it's important to note that this will often be truncated for smaller screens, and so please put the most differentiating parts first
+#, include in addthis-backend domain
+msgid "menu_item_sharing_settings"
+msgstr "Przyciski udostępniania"
+
+#. widget description
+#. these sharing buttons are simple, clean squares with the logo of a social network and that network's brand's color
+#, include in addthis-backend domain
+msgid "widget_description_tbx"
+msgstr ""
+"Przyciski udostępniania od AddThis pozwalają zwiększyć liczbę udostępnień "
+"przez odwiedzających w mediach społecznościowych."
+
+#. End user license agreement
+#. {{button_text}} is a placeholder for the text in a button also displayed on the screen. clicking of that indicates the user agree to the linked documents
+#. msgids often used for {{button_text}}: save_button, register_button
+#. {{terms_of_service_link}} is a placeholder for a link to our terms and conditions (see msgid terms_of_service_link for the text of this link)
+#. {{privacy_policy_link}} is a placeholder for a link to our privacy policy (see msgid privacy_policy_link for the text of this link)
+#, include in addthis-backend domain
+msgid "eula_template"
+msgstr ""
+"Klikając na \"{{button_text}}\" oświadczasz, że masz co najmniej 13 lat oraz "
+"że wyrażasz zgodę na {{privacy_policy_link}} i {{terms_of_service_link}} "
+"AddThis."
+
+#. used as text in links to our privacy policy
+#, include in addthis-backend domain
+msgid "privacy_policy_link"
+msgstr "politykę prywatności"
+
+#. used as text in links to our terms of service
+#, include in addthis-backend domain
+msgid "terms_of_service_link"
+msgstr "warunki świadczenia usług"
+
+#. used on buttons for saving their settings
+#, include in addthis-backend domain
+msgid "save_button"
+msgstr "Zapisz"
+
+#. the label on a form input when asking user for a title of their widget
+#, include in addthis-backend domain
+msgid "widget_title_input_label"
+msgstr "Tytuł:"
+
+#. the name of the author of the plugin
+#, include in addthis-backend domain
+msgid "name_of_plugin_creation_team"
+msgstr "Zespół AddThis"
+
+#. the description of the follow buttons plugin on a page listing all installed plugins. Should mention setting up tools from within WordPress.
+#, include in addthis-backend domain
+msgid "plugin_description_follow_buttons"
+msgstr ""
+"Generuj obserwujących dla swoich sieci społecznościowych oraz śledź, które "
+"strony generują największą liczbę obserwujących. Ustaw następujące narzędzia "
+"od AddThis bezpośrednio w WordPress. Z AddThis możesz zobaczyć jak Twoi "
+"użytkownicy korzystają z treści, zapewnić im osobiste dla każdego "
+"użytkownika doznania i zachęcać ich do udostępniania Twoich treści w ich "
+"sieciach społecznościowych. Narzędzia udostępniania, rekomendowane treści, "
+"narzędzia do konwersji oraz analizy społecznościowe dostępne dla "
+"zarejestrowanych kont na addthis.com."
+
+#. used in a sentence directing people to edit the plugin's settings to change a tool's configuration
+#, include in addthis-backend domain
+msgid "plugin_settings_link"
+msgstr "ustawienia wtyczki"
+
+#. {{link}} is a placeholder for a link to either the plugin's settings (see msgid plugin_settings_link for the text in a specific language) or addthis.com (which always reads addthis.com). Which link is used depends nn the plugin's (depending on mode).
+#, include in addthis-backend domain
+msgid "widget_edit_link"
+msgstr "aby zmienić opcje tego narzędzia, prosimy przejść do {{link}}"
+
+#. {{plugin_settings}} is a placeholder for a link to the plugin's settings (see msgid plugin_settings_link for the text in a specific language)
+#. {{addthis_website}} is a placeholder for a link to addthis.com that always reads addthis.com
+#, include in addthis-backend domain
+msgid "widget_edit_links"
+msgstr ""
+"aby zmienić opcje tego narzędzia, prosimy przejść do {{plugin_settings}} lub "
+"{{addthis_website}}"
+
+#. message shown to users when they need to edit their plugin's configuration because of conflicts
+#. {{link}} will be replaced with a link to the plugin's settings (see msgid plugin_settings_link for the text in a specific language)
+#, include in addthis-backend domain
+msgid "warning_message_widget_conflict"
+msgstr ""
+"KONFLIKT! Niektóre z wybranych dla tej wtyczki opcji konfiguracji, nie są "
+"już obsługiwane i nie mogą zostać automatycznie uaktualnione. Przejdź do "
+"{{link}}, aby zaktualizować swoją konfigurację przed dodaniem lub edycją "
+"tego gadżetu."
+
+#. the name of our minimal plugin (in English: Website Tools by AddThis)
+#, include in addthis-backend domain
+msgid "plugin_name_minimum"
+msgstr "Narzędzia dla stron internetowych AddThis"
+
+#. the description of the minimal (pro) buttons plugin on a page listing all installed plugins. Should mention controlling tools throught the AddThis website (not in WordPress).
+#, include in addthis-backend domain
+msgid "plugin_description_minimum"
+msgstr ""
+"W łatwy sposób zyskaj dla swojej strony WordPress dostęp do narzędzi AddThis "
+"oraz kontroluj i edytuj w łatwy sposób przez panel sterowania AddThis."
+
+#. the name of our maximum plugin with everything enabled (in English: AddThis Smart Layers)
+#, include in addthis-backend domain
+msgid "plugin_name_maximum"
+msgstr "Inteligentne warstwy AddThis"
+
+#. the description of the maximum buttons plugin on a page listing all installed plugins. Should mention setting up tools from within WordPress.
+#, include in addthis-backend domain
+msgid "plugin_description_maximum"
+msgstr ""
+"Włącz narzędzia udostępniania, obserwowania oraz rekomendowani treści od "
+"AddThis bezpośrednio w WordPress. Z AddThis możesz zobaczyć jak Twoi "
+"użytkownicy korzystają z treści, zapewnić im osobiste dla każdego "
+"użytkownika doznania i zachęcać do udostępniania, subskrybowania i "
+"obserwowania. Narzędzia konwersji oraz analiz społecznościowych są dostępne "
+"dla zarejestrowanych kont na addthis.com."
+
+#. the name of our sharing buttons plugin (in English: Share Buttons by AddThis)
+#, include in addthis-backend domain
+msgid "plugin_name_share_buttons"
+msgstr "Przyciski udostępniania od AddThis"
+
+#. the description of the share buttons plugin on a page listing all installed plugins. Should mention setting up tools from within WordPress.
+#, include in addthis-backend domain
+msgid "plugin_description_share_buttons"
+msgstr ""
+"Ustaw narzędzia udostępniania od AddThis bezpośrednio w WordPress. Z AddThis "
+"możesz zobaczyć jak Twoi użytkownicy korzystają z treści, zapewnić im "
+"osobiste dla każdego użytkownika doznania i zachęcać ich do udostępniania "
+"Twoich treści w ich sieciach społecznościowych. Narzędzia udostępniania, "
+"rekomendowane treści, narzędzia do konwersji oraz analizy społecznościowe "
+"dostępne dla zarejestrowanych kont na addthis.com."
+
+#. The success message after a user sets up / registers the plugin with their AddThis account and an AddThis site profile
+msgid "success_message_registered"
+msgstr "Rejestracja zakończona pomyślnie!"
+
+#. A button that takes the user to addthis.com for their site's analytics and more
+msgid "analytics_at_addthis_button"
+msgstr "Analizy i więcej na AddThis.com"
+
+#. A button that takes the user to addthis.com to configure their tools
+msgid "configure_at_addthis_button"
+msgstr "Skonfiguruj narzędzia na AddThis.com"
+
+#. A sentence reminding users that they configure all their tools in the AddThis Dashboard with the Website Tools by AddThis plugin
+#. Website Tools by AddThis is the name of the plugin in English. See msgid plugin_name_minimum for the name of the plugin in any particular language
+msgid "registered_configure_at_addthis"
+msgstr ""
+"Z narzędziami dla stron internetowych AddThis konfigurujesz wszystkie swoje "
+"narzędzia korzystając z panelu sterowania AddThis."
+
+#. the title below an image showing an example of an AddThis sharing tool
+msgid "registered_intro_header_share_tools"
+msgstr "Narzędzia udostępniania"
+
+#. a description of what share tools are and why you'd want to use them
+msgid "registered_intro_description_share_tools"
+msgstr ""
+"Zwiększ ruch na swojej stronie oferując odwiedzającym proste sposoby na "
+"udostępnianie Twoich treści."
+
+#. Alt text (for blind users) describing an image with an an example of share tools. No need to translate exactly, just do your best to make it useful for someone who can't see.
+msgid "tool_smlsh_example_image_alt"
+msgstr ""
+"Przykładowy paska udostępniania obrazka. Pasek znajduje się na lewej "
+"krawędzi obrazka, pływając nad zaznaczonymi na szaro ilustracjami oraz "
+"tekstem w tle. W tym przykładzie, z góry na dół, przyciski udostępniania są "
+"logotypami Facebooka, Twittera, Pinteresta, LinkedIna oraz dużym plusem dla "
+"kolejnych. Cztery pierwsze przyciski udostępniania zawierają licznik "
+"udostępnień poniżej każdego z logo. Każde logo jest białe na tle w "
+"jednolitym kolorze, który odpowiada kolorom każdej z marek."
+
+#. the title below an image showing an example of an AddThis follow tool
+msgid "registered_intro_header_follow_tools"
+msgstr "Narzędzia obserwowania"
+
+#. a description of what follow tools are and why you'd want to use them
+msgid "registered_intro_description_follow_tools"
+msgstr ""
+"Przyciągnij więcej obserwujących oraz polubień z odważnymi, pięknymi, "
+"społecznościowymi przyciskami obserwowania."
+
+#. Alt text (for blind users) describing an image with an an example of follow tools. No need to translate exactly, just do your best to make it useful for someone who can't see.
+msgid "tool_smlfw_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja nagłówka obserwowania. Nagłówek znajduje się w "
+"prawym, górnym rogu, pływając nad zaznaczonymi na szaro ilustracjami i "
+"tekstem w tle. Posiada 4 okrągłe ikony ułożone poziomo, poprzedzone słowem. "
+"W tym przykładzie, od lewej do prawej, następujące ikony są logotypami "
+"Facebooka, Twittera, Google+ i LinkedIna. Każde logo jest białe na tle w "
+"jednolitym kolorze, odpowiadającym kolorowi każdej z marek "
+"społecznościowych."
+
+#. the title below an image showing an example of an AddThis recommended content tool
+msgid "registered_intro_header_recommended_content"
+msgstr "Rekomendowane treści"
+
+#. a description of what recommended content tools are and why you'd want to use them
+msgid "registered_intro_description_recommended_content"
+msgstr ""
+"Utrzymuj zainteresowanie swoich odwiedzających pokazując im topowe treści."
+
+#. Alt text (for blind users) describing an image with an an example of recommended content tools. No need to translate exactly, just do your best to make it useful for someone who can't see.
+msgid "tool_smlrebv_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja narzędzia rekomendowanych treści. Narzędzie znajduje "
+"się po prawej stronie obrazka, po boku zaznaczonych na szaro obrazów i "
+"tekstu w tle. Zawiera 5 artykułów ułożonych pionowo, każdy z obrazkiem i "
+"tekstem po lewej stronie."
+
+#. the title below an image showing an example of an AddThis custom message used to target a specific audience
+msgid "registered_intro_header_custom_messages"
+msgstr "Adresowanie publiczności"
+
+#. a description of what audience targeting is and why you'd want to use it
+msgid "registered_intro_description_custom_messages"
+msgstr ""
+"Zwiększ liczbę subskrypcji, zapisów i rejestracji z regułami adresowania "
+"publiczności"
+
+#. Alt text (for blind users) describing an image with an an example of audience targeting messages. No need to translate exactly, just do your best to make it useful for someone who can't see.
+msgid "tool_listing_custom_message_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja dowolnej wiadomości wykorzystanej do adresowania "
+"wiadomości. Wiadomość pojawia się powyżej treści na stronie i sprawia, że "
+"tło staje się szare. Występuje kilka linijek tekstu na górze wyskakującego "
+"okienka oraz dwa przyciski na dole. Lewy przycisk jest niebieski, a prawy "
+"szary."
+
+#. the text in a link that takes the user to a page where they can change their registration information - specifally the AddThis account and which profile on that account they are using
+msgid "edit_registration_link"
+msgstr "Edytuj rejestrację"
+
+#. The header on a settings page for creating an AddThis account
+msgid "account_create_title"
+msgstr "Stwórz konto"
+
+#. the label on an input field where the user should enter their email address, used both when signing in and creating an account
+msgid "email_address_input_label"
+msgstr "Adres e-mail"
+
+#. the placeholder text on an input field where the user should enter their email address, used both when signing in and creating an account
+msgid "email_address_input_placeholder"
+msgstr "e-mail"
+
+#. the description on an input field where the user should enter their email address, explaining that they will use this to sign into their new account
+msgid "account_create_email_address_description"
+msgstr "Będziesz używać go do logowania"
+
+#. An error message shown if the user enters something that isn't an email address into the form
+msgid "error_message_email_address_invalid"
+msgstr "Niepoprawny adres e-mail"
+
+#. An error message shown if the user doesn't enter an email address into the form
+msgid "error_message_email_address_required"
+msgstr "Adres e-mail jest wymagany"
+
+#. the label on an input field where the user should enter their password, used both when signing in and creating an account
+msgid "password_input_label"
+msgstr "Hasło"
+
+#. the placeholder text on an input field where the user should enter their password, used both when signing in and creating an account
+msgid "password_input_placeholder"
+msgstr "Hasło"
+
+#. the description on an input field where the user should enter their password, explaining that the password must be at least 4 characters long
+msgid "account_create_password_description"
+msgstr "Minimalne długość 4 znaki"
+
+#. An error message shown if the user enters an email address that isn't at least 4 characters long
+msgid "error_message_password_too_short"
+msgstr "Hasło jest za krótkie"
+
+#. the label on an input field where the user should reenter their password, to make sure it matches their previous password input
+msgid "account_create_retype_password_label"
+msgstr "Ponownie wpisz hasło"
+
+#. the placeholder text on an input field where the user should reenter their password, to make sure it matches their previous password input
+msgid "account_create_retype_password_placeholder"
+msgstr "Potwierdź hasło"
+
+#. An error message shown if the two passwords the user entered don't match
+msgid "error_message_password_mismatch"
+msgstr "Hasła się nie zgadzają"
+
+#. the label on a checkbox field where the user can opt -in to a monthly email newsletter
+msgid "account_create_newsletter_opt_in"
+msgstr "Prześlij miesięczny biuletyn na adres e-mail"
+
+#. An error message shown if something unexpected went wrong with an action or when retrieving info. Generic.
+msgid "error_message_failed_unknown_reason"
+msgstr "Niepowodzenie. Przyczyna nieznana."
+
+#. A button to create a new account and register this plugin with it
+msgid "register_button"
+msgstr "Rejestruj"
+
+#. The header on a settings page for creating a new AddThis profile (and account can have multiple profiles)
+msgid "create_profile_title"
+msgstr "Stwórz profil"
+
+#. An explaination of what an AddThis profile is, and a prompt to name the profile below
+msgid "create_profile_description"
+msgstr ""
+"możesz stworzyć wiele profili, aby skonfigurować swoje narzędzie do "
+"korzystania z różnymi stronami. Prosimy podać nazwę nowego profilu:"
+
+#. the label on an input field where the user should enter a name for their new profile (it will be prepopulated with their site's name)
+msgid "create_profile_label"
+msgstr "Nazwa profilu"
+
+#. An error message shown if the user enters too many characters for the name of a new profile (limit 255 characters)
+msgid "error_message_profile_name_too_long"
+msgstr "Nazwa profilu musi zawierać poniżej 255 znaków."
+
+#. An error message shown if the user enters unsupported characters for the name of a new profile (A-Z, a-z, 0-9, -, _ and () are all that's supported)
+msgid "error_message_profile_bad_characters"
+msgstr ""
+"Nazwa profilu może zawierać tylko i wyłącznie litery, cyfry, spacje, "
+"myślniki, znaki podkreślenia oraz nawiasy."
+
+#. A button to create a new profile on their addthis account
+msgid "confirm_button"
+msgstr "Potwierdź"
+
+#. The header on a settings page for manually editing profile registration
+msgid "manual_registration_title"
+msgstr "Ustawienia manualne / Edycja rejestracji"
+
+#. the label on an input field where the user should enter their profile ID
+msgid "manual_registration_profile_id_label"
+msgstr "ID profilu AddThis"
+
+#. A message displayed when the input profile ID not valid.
+msgid "manual_registration_unknown_profile_id"
+msgstr "Nieznane ID profilu"
+
+#. A message displayed when the input profile ID is valid but not of the correct type. This plugin uses a profile with the type WordPress.
+msgid "error_message_profile_wrong_type"
+msgstr "Profil niezgodny z WordPress"
+
+#. A message displayed when the input profile ID is valid and of the correct type. The emoticon is optional in translations.
+msgid "manual_registration_valid_profile_id"
+msgstr "Poprawne ID profilu :)"
+
+#. the label on an input field where the user should enter their API key
+msgid "manual_registration_api_key_label"
+msgstr "Klucz API AddThis"
+
+#. A message displayed when the input API key is NOT valid for the profile entered. The API key may or may not be valid for another profile ID.
+msgid "error_message_invalid_api_key"
+msgstr "Ten klucz API nie jest poprawny dla powyższego ID profilu"
+
+#. A message displayed when the input API key is valid for the profile entered. The emoticon is optional in translations.
+msgid "manual_registration_valid_api_key"
+msgstr "Poprawny klucz API :)"
+
+#. A message displayed when the values of an input field on a form are being checked. This message may appear directly below the relevant field, near the save button for the form, or may appear in a grayed out button
+msgid "progress_message_checking_input"
+msgstr "Sprawdzanie..."
+
+#. A link to cancel the current action
+msgid "cancel_link"
+msgstr "Anuluj"
+
+#. Button text for a save button, while saving, and button is grayed out
+msgid "progress_message_saving"
+msgstr "Zapisywanie..."
+
+#. A message displayed when the form has an invalid input. Shown below the save button (save button grayed out)
+msgid "error_message_invalid_input_can_not_save"
+msgstr ""
+"Twoje zmiany nie mogą zostać zapisane zanim pola, które zawierają błędy nie "
+"zostaną zapisane."
+
+#. A message displayed only momentarily after settings are successfully saved (after user clicked on save button). Shown below the save button.
+msgid "success_message_saved"
+msgstr "Twoje zmiany zostaną zapisane."
+
+#. The header on a settings page for selecting a profile to use for registration
+msgid "select_profile_title"
+msgstr "Wybierz profil"
+
+#. Explination for the user that we've automatically selected their current profile from the select dropdown below. They may change it, but that may change the tools appearing on their site.
+msgid "select_profile_description"
+msgstr ""
+"Zaznaczyliśmy profil, który już obecnie używasz. Możesz zmienić go poniżej, "
+"jeśli jest to konieczne. Zmiana profilu na inny może zmienić Twoje "
+"ustawienia dla narzędzi AddThis na tej stronie."
+
+#. Direction for the user to select a profile from a drowndown menu, or select the option to create a new profile from the dropdown menu
+msgid "select_profile_select_directions"
+msgstr ""
+"Możesz wybrac jeden z istaniejących profili AddThis albo stworzyć nowy i "
+"skojarzyć go z tą stroną."
+
+#. the label on a select (dropdown) field where the user can select a profile
+msgid "select_profile_select_label"
+msgstr "Wybierz profil"
+
+#. A warning to the user that the profile they are currently using on the site isn't associated with the account they logged in with. They either need to pick a different profile, create a new profile, or log in with the correct account.
+#. {{profile_id}} is a placeholder for the profile id currently being used by the site, this will usually look something like ra-12asd34asgs
+#. this is immidiately followed by a link with the text in msgid start_registration_over_link
+msgid "error_message_profile_not_on_account"
+msgstr ""
+"Twój obecny profil ({{profile_id}}) nie jest skojarzony z tym rachunkiem. "
+"Możesz wybrać profil z rozwijanej listy, stworzyć nowy, bądź rozpocząć od "
+"nowa i zalogować się korzystając z innego konta AddThis."
+
+#. A link that allows the user to start the registration process over to sign into a different account
+msgid "start_registration_over_link"
+msgstr "Rozpocznij od nowa"
+
+#. A warning to the user that the profile they selected from a dropdown is not of the correct type. If they continue, the type on the profile will be corrected and the settings reset.
+msgid "select_profile_warning_wrong_profile_type"
+msgstr ""
+"Wybrany profil nie jest zgodny z WordPress. Jeśli skorzystasz z tego "
+"profilu, jego typ zostanie uaktualniony a ustawienia przywrócone."
+
+#. The header on a settings page for signing into their AddThis account for registration. This is the first page a new user sees.
+#. Website Tools by AddThis is the name of the plugin in English. See msgid plugin_name_minimum for the name of the plugin in any particular language
+msgid "sign_in_title"
+msgstr "Witaj w narzędziach dla stron internetowych AddThis"
+
+#. A paragraph informing the user about what they'll be able to do after registration
+#. Website Tools by AddThis is the name of the plugin in English. See msgid plugin_name_minimum for the name of the plugin in any particular language
+msgid "sign_in_minimalist_intro"
+msgstr ""
+"Z wtyczką narzędzi dla stron internetowych AddThis, otrzymasz możliwość "
+"dostępu do całego pakietu narzędzi marketingowych dla stron internetowych "
+"AddThis, włączając  udostępnianie i reguły adresowania publiki. Korzystając "
+"z pulpitu AddThis, aktywuj swoje narzędzie, badaj ich wydajność i dokonuj "
+"zmian w ułamkach sekund, a to wszystko w jednym miejscu."
+
+#. A note (paragraph) to the user reminding them that the Website Tools by AddThis plugin requires registration
+#. Website Tools by AddThis is the name of the plugin in English. See msgid plugin_name_minimum for the name of the plugin in any particular language
+msgid "sign_in_minimalist_note"
+msgstr ""
+"UWAGA: Aby móc korzystać z wtyczki narzędzi dla stron internetowych AddThis, "
+"konieczne jest konto AddThis."
+
+#. A paragraph to the user letting them know registration is optional and unlocks additional features
+msgid "sign_in_registration_optional"
+msgstr "Rejestracja jest opcjonalna i odblokowuje ona dodatkowe funkcje."
+
+#. A header prompting users to sign in with their account, if they already have one
+msgid "sign_in_sign_in_below"
+msgstr "Masz już konto? Spójrz poniżej"
+
+#. The text in a link that takes them to a page where they can reset their AddThis account's password
+msgid "forgot_password_link"
+msgstr "Nie pamiętasz hasła?"
+
+#. The text in a button for the user to click to sign in, after entering username and password
+msgid "sign_in_button"
+msgstr "Zaloguj się"
+
+#. The text above a button that a user can click on to create an account if they don't already have one
+msgid "sign_in_do_not_have_account"
+msgstr "Nie masz konta? Stwórz jedno poniżej"
+
+#. The text in a button. when clicked, takes the user to a page where they can create an account
+msgid "create_account_button"
+msgstr "Stwórz konto"
+
+#. The text in a link. when clicked, take the user to a page where they can manually enter their registration information without signing in
+msgid "manual_registration_link"
+msgstr "Ręcznie połącz swoje konto AddThis z WordPress"
+
+#. A message displayed when content is still loading
+msgid "progress_message_loading"
+msgstr "Wczytywanie..."
+
+#. A message displayed when checking is a user's registration for the plugin is valid
+msgid "progress_message_checking_registration"
+msgstr "Sprawdzanie rejestracji..."
+
+#. A message displayed while checking if the user's login is valid
+msgid "progress_message_checking_login"
+msgstr "Sprawdzanie nazwy użytkownika..."
+
+#. A message displayed when retrieving the profiles off a user's account
+msgid "progress_message_retrieving_profiles"
+msgstr "Odbieranie profili..."
+
+#. A message displayed after a user selected a profile, while creating an API key for the profile
+msgid "progress_message_creating_api_key"
+msgstr "Tworzenie klucza API..."
+
+#. A message displayed after a user selected a profile that is not of the right type (not a WordPress profile), indicating that we're changing the type on the profile
+msgid "progress_message_changing_profile_type"
+msgstr "Zmiana typu profilu..."
+
+#. A message displayed after all checks have been done, and registration is being saved
+msgid "progress_message_saving_registration"
+msgstr "Zapisywanie rejestracji..."
+
+#. A message displayed after a user submits a form to create a new account
+msgid "progress_message_checking_account"
+msgstr "Tworzenie konta..."
+
+#. A message displayed when retireving the one automatically created profile on a brand new user account
+msgid "progress_message_retrieving_profile"
+msgstr "Odzyskiwanie profilu..."
+
+#. A message displayed when creating a new profile on an account (after the user selected create new profile, and then named their profile)
+msgid "progress_message_creating_profile"
+msgstr "Tworzenie profilu..."
+
+#. A generic title for an error message box
+msgid "error_message_error_occured"
+msgstr "Wystąpił błąd"
+
+#. A generic message about an unknown error occuring
+msgid "error_message_unknown_error"
+msgstr "Nieznany błąd"
+
+#. A generic name for an account's first profile. This must be in basic latin letters. Profile names may contain only letters, numbers, spaces, dashes, underscores, and parentheses. A-Z, a-z, 0-9, - _ () and spaces are all that's supported here.
+msgid "registration_first_profile_name_fallback"
+msgstr "Mój pierwszy profil"
+
+#. The first item in a select (dropdown field) of profiles on an account, to be selected if the user wants to create a new profile instead of using an existing one
+msgid "registration_select_create_new_profile"
+msgstr "Stwórz nowy profil"
+
+#. A title for an error message box about issues with creating an API key
+msgid "error_message_failed_to_create_api_key"
+msgstr "Stworzenie klucza API nie powiodło się"
+
+#. A detailed message about too many requests for API keys on this profile. Only 1 allowed per second.
+msgid "error_message_too_many_api_key_requests"
+msgstr ""
+"Nowy klucz API może być stworzony tylko raz na sekundę. Możesz spróbować "
+"ponownie."
+
+#. A title for an error message box about issues with changing something on a profile
+msgid "error_message_failed_to_change_profile_type"
+msgstr "Zmiana typu folderu nie powiodła się"
+
+#. A title for an error message box about issues with creating a new profile
+msgid "error_message_failed_to_create_profile"
+msgstr "Stworzenie profilu nie powiodło się"
+
+#. A notice to users that their site has not yet been crawled by AddThis, and thus does not yet have any recommended content. It sets the expecation that they should have recommended content in 24 hour, and can contact support if they still do not see recommended content on their site (not on the page with the warning) after 24 hours.
+#. {{support_site_link}} is a placeholder for a link that displays the domain for the company's support forum. At the moment, this is support.addthis.com
+#. {{support_email_address_link}} is a placeholder for a link that displays the support email address. At the moment, this is help@addthis.com
+msgid "recommended_content_check_message"
+msgstr ""
+"AddThis nie przeszukało jeszcze Twojej strony, aby zebrać rekomendowane "
+"informacje. Każde narzędzie rekomendowanych treści, które dodasz do strony "
+"zostanie wyświetlone, gdy będziemy mieli coś do pokazania. Przejrzenie "
+"Twojej strony może zająć do 24 godzin. Jeślni nie widzisz informacji ciągle "
+"po 24 godzinach, możesz zawsze skonaktować się z naszym działem obsługi "
+"AddThis na {{support_site_link}} lub {{support_email_address_link}}"
+
+#. {{old_share_plugin_name}} is a placeholder for the name of our old sharing buttons plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#: A success mesage for users shown after they choose to change their plugin into AddThis mode. AddThis mode is when they control their AddThis tools from AddThis.com, not within WordPress (WordPress mode is the reverse)
+msgid "warning_message_cross_plugin_mode_fixed"
+msgstr "Twoja wtyczka {{old_share_plugin_name}} jest obecnie w trybie AddThis."
+
+#. A warning message for users who have another plugin installed in an incompatable mode. AddThis mode is when they control their AddThis tools from AddThis.com, not within WordPress (WordPress mode is the reverse)
+#. {{old_share_plugin_name}} is a placeholder for the name of our old sharing buttons plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. This message is immidiately followed by msgid warning_message_cross_plugin_change_mode_action_link
+msgid "warning_message_cross_plugin_wordpress_mode"
+msgstr ""
+"Czy wtyczka {{old_share_plugin_name}} została aktywowana? Twoje konfiguracje "
+"od AddThis.com nie zostaną wyświetlone na Twojej stronie tak długo, aż "
+"wtyczka {{old_share_plugin_name}} nie zostanie przełączona do trybu AddThis."
+
+#. A link that when clicked, change's the users mode to AddThis. Appears immidiately after msgid warning_message_cross_plugin_wordpress_mode
+#. AddThis mode is when they control their AddThis tools from AddThis.com, not within WordPress (WordPress mode is the reverse)
+#. Immediately follows msgid warning_message_cross_plugin_wordpress_mode
+msgid "warning_message_cross_plugin_change_mode_action_link"
+msgstr "Kliknij tutaj, aby zmienić tryby."
+
+#. A warning message for users who have our old sharing button plugin installed along with this plugin
+#. {{old_share_plugin_name}} is a placeholder for the name of our old sharing buttons plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+msgid "warning_message_cross_plugin_share_button_buggy"
+msgstr ""
+"Czy wtyczka {{old_share_plugin_name}} została aktywowana? Ta wtyczka może "
+"nie działać poprawnie z obecną wtyczką. Szczególnie może prowadzić do "
+"podwójnego wyświetlania przycisków udostępniania i rekomendowanych treści. "
+"Jeśli spotkasz się z problemami, prosimy spróbować wyłączyć jedną z wtyczek: "
+"{{old_share_plugin_name}} lub obecną."
+
+#. A warning message for users who seem to have our older follow button and our old welcome bar plugins installed along with this plugin, and using a different profile id
+#. This will be immediately followed by a link with the text in msgid warning_message_cross_plugin_copy_profile_id_into_plugins_link
+#. {{old_follow_plugin_name}} is a placeholder for the name of our old follow buttons plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{old_welcome_bar_plugin_name}} is a placeholder for the name of our old welcome bar plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{profile_id}} is a placeholder for the profile id being used by the other two plugins, this will usually look something like ra-12asd34asgs
+msgid "warning_message_cross_plugin_fb_and_wb_mismatched_profile_id"
+msgstr ""
+"Czy wtyczka {{old_follow_plugin_name}} lub {{old_welcome_bar_plugin_name}} "
+"są aktywne? Używają róznych profili AddThis ({{profile_id}}). Może to "
+"powodować problemy."
+
+#. A warning message for users who seem to have our older follow button and our old welcome bar plugins installed along with this plugin, but without a profile id
+#. This will be immediately followed by a link with the text in msgid warning_message_cross_plugin_copy_profile_id_into_plugins_link
+#. {{old_follow_plugin_name}} is a placeholder for the name of our old follow buttons plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{old_welcome_bar_plugin_name}} is a placeholder for the name of our old welcome bar plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+msgid "warning_message_cross_plugin_fb_and_wb_no_profile_id"
+msgstr ""
+"Czy wtyczka {{old_follow_plugin_name}} lub {{old_welcome_bar_plugin_name}} "
+"są aktywne? Nie zostały one utworzone korzystając z profili AddThis. Może to "
+"powodować problemy."
+
+#. linked text that on click, copies the profile id in this plugin in into the follow button and welcome bar plugins
+#. {{old_welcome_bar_plugin_name}} is a placeholder for the name of our old welcome bar plugin (untranslated - it's not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{profile_id}} is a placeholder for the profile id being used by this plugin, this will usually look something like ra-12asd34asgs
+#. Often immidiately follows msgid warning_message_cross_plugin_fb_and_wb_mismatched_profile_id or warning_message_cross_plugin_fb_and_wb_no_profile_id
+msgid "warning_message_cross_plugin_copy_profile_id_into_plugins_link"
+msgstr ""
+"Kliknij tutaj, aby skopiować swój profil z tej wtyczki: ({{profile_id}}) do "
+"obu. Może to nadpisać niektóre z Twoich ustawień w "
+"{{old_welcome_bar_plugin_name}}."
+
+#. A warning message for a user who seem to have an old one of our plugins installed, and using a different profile id
+#. This message is immidiately followed by a link with msgid warning_message_cross_plugin_copy_profile_id_into_plugin_link or warning_message_cross_plugin_copy_profile_id_into_plugin_with_warning_link
+#. {{old_plugin_name}} is a placeholder for the name of one of our old plugins (untranslated - they're not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{profile_id}} is a placeholder for the profile id being used by the other plugin, this will usually look something like ra-12asd34asgs
+msgid "warning_message_cross_plugin_mismatched_profile_id"
+msgstr ""
+"Czy wtyczka {{old_plugin_name}} została aktywowana? Korzysta ona z innego "
+"profilu AddThis ({{profile_id}}). Może to powodować problemy."
+
+#. A warning message for a user who seem to have an old one of our plugins installed, and not configured with a profile id
+#. This message is immidiately followed by a link with msgid warning_message_cross_plugin_copy_profile_id_into_plugin_link
+#. {{old_plugin_name}} is a placeholder for the name of one of our old plugins (untranslated - they're not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+msgid "warning_message_cross_plugin_no_profile_id"
+msgstr ""
+"Czy wtyczka {{old_plugin_name}} została aktywowana? Nie została on ustawiona "
+"z wykorzystaniem profilu AddThis. Może to powodować problemy."
+
+#. linked text that on click, copies the profile id in this plugin in into the old plugin
+#. This link is proceeded by msgid warning_message_cross_plugin_mismatched_profile_id or warning_message_cross_plugin_no_profile_id
+#. {{old_plugin_name}} is a placeholder for the name of one of our old plugins (untranslated - they're not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{profile_id}} is a placeholder for the profile id being used by this plugin, this will usually look something like ra-12asd34asgs
+msgid "warning_message_cross_plugin_copy_profile_id_into_plugin_link"
+msgstr ""
+"Kliknij tutaj, aby skopiować swój profil z tej wtyczki: ({{profile_id}}) do: "
+"{{old_plugin_name}}."
+
+#. linked text that on click, copies the profile id in this plugin in into the welcome bar plugin
+#. {{old_plugin_name}} is a placeholder for the name of one of our old plugins (untranslated - they're not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+#. {{profile_id}} is a placeholder for the profile id being used by this plugin, this will usually look something like ra-12asd34asgs
+#. Often immidiately follows msgid warning_message_cross_plugin_fb_and_wb_mismatched_profile_id or warning_message_cross_plugin_fb_and_wb_no_profile_id
+msgid "warning_message_cross_plugin_copy_profile_id_into_plugin_with_warning_link"
+msgstr ""
+"Kliknij tutaj, aby skopiować swój profil z tej wtyczki: ({{profile_id}}) do: "
+"{{old_plugin_name}}. Może to spowodować nadpisanie niektórych ustawień "
+"{{old_plugin_name}}."
+
+#. A warning message for users who have another one of our old button plugins installed along with this plugin
+#. {{old_plugin_name}} is a placeholder for the name of one of our old plugins (untranslated - they're not internationalized, so it makes sense to leave the name as it appears within WordPress), in bold
+msgid "warning_message_cross_plugin_other_plugin_buggy"
+msgstr ""
+"Czy wtyczka {{old_plugin_name}} została aktywowana? Ta wtyczka może nie "
+"działać poprawnie z obecną wtyczką. Szczególnie, Twoje opcje w jednej z "
+"dwóch wtyczek, mogą zostać zignorowane."
+
+#. used as alt text (for blind users) on a section with plugin incompatability warnings
+msgid "cross_plugin_warnings_section_alt"
+msgstr "Ostrzeżenia"
+
+#. used as alt text (for blind users) on a section listing the follow header tool
+#: the follow header tool is a set of round follow buttons that float at the top of the page
+msgid "tool_listing_smlfw_alt"
+msgstr "Wyszczególnienie narzędzi nagłówków obserwowania"
+
+#. used as alt text (for blind users) on a section with the settings for the follow header tool
+#: the follow header tool is a set of round follow buttons that float at the top of the page
+msgid "tool_settings_smlfw_alt"
+msgstr "Ustawienia narzędzi nagłówków obserwowania"
+
+#. used as alt text (for blind users) on a section listing the horizontal follow tool
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+msgid "tool_listing_flwh_alt"
+msgstr "Wyszczególnienie poziomych narzędzi obserwowania"
+
+#. used as alt text (for blind users) on a section with the settings for the horizontal follow tool
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+msgid "tool_settings_flwh_alt"
+msgstr "Ustawienia poziomych narzędzi obserowoania"
+
+#. used as alt text (for blind users) on a section listing the vertical follow tool
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+msgid "tool_listing_flwv_alt"
+msgstr "Wyszczególnienie pionowych narzędzi obserwowania"
+
+#. used as alt text (for blind users) on a section with the settings for the vertical follow tool
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+msgid "tool_settings_flwv_alt"
+msgstr "Ustawienia pionowych narzędzi obserwowania"
+
+#. used as alt text (for blind users) on a section listing the custom follow tool
+#. custom follow buttons allow users select the color and shape of their follow buttons
+msgid "tool_listing_cflwh_alt"
+msgstr "Wyszczególnienie dowolnych narzędzi obserwowania"
+
+#. used as alt text (for blind users) on a section with the settings for the custom follow tool
+#. custom follow buttons allow users select the color and shape of their follow buttons
+msgid "tool_settings_cflwh_alt"
+msgstr "Ustawienia dowolnych narzędzi obserwowania"
+
+#. Alt text (for blind users) describing an image with an an example of horizontal follow buttons. No need to translate exactly, just do your best to make it useful for someone who can't see.
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+msgid "tool_listing_flwh_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja poziomych przycisków obserwowania. Przyciski te "
+"znajdują się w prawej części obrazu, po boku zaznaczonych na szaro obrazów i "
+"tła. Zawiera 4 kwadratowe ikony ułożone poziomo, z tekstem \"Obserwuj:\" "
+"bezpośrednio nad nimi. W tym przykładzie, od lewej do prawej, kolejnymi "
+"przyciskami są logotypy Facebooka, Twittera, Pinteresta and LinkedIna. Każde "
+"logo jest białe na tle w jednolitym kolorze, odpowiadającym kolorowi każdej "
+"z marek społecznościowych."
+
+#. Alt text (for blind users) describing an image with an an example of vertical follow buttons. No need to translate exactly, just do your best to make it useful for someone who can't see.
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+msgid "tool_listing_flwv_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja pionowych przycisków obserwowania. Przyciski te "
+"znajdują się w prawej części obrazu, po boku zaznaczonych na szaro obrazów i "
+"tła. Zawiera 4 kwadratowe ikony ułożone pionowo, z tekstem \"Obserwuj:\" "
+"bezpośrednio nad nimi. Bezpośrednio po prawej stronie każdej z ikon znajduje "
+"się nazwa usługi zapisana na niebiesko. W tym przykładzie, od góry do dołu, "
+"kolejnymi przyciskami są logotypy Facebooka, Twittera, Pinteresta and "
+"LinkedIna. Każde logo jest białe na tle w jednolitym kolorze, odpowiadającym "
+"kolorowi każdej z marek społecznościowych."
+
+#. Alt text (for blind users) describing an image with an an example of custom follow buttons. No need to translate exactly, just do your best to make it useful for someone who can't see.
+#. custom follow buttons allow users select the color and shape of their follow buttons
+msgid "tool_listing_cflwh_example_image_alt"
+msgstr ""
+"Przykładowa ilustracja poziomych przycisków obserwowania. Przyciski te "
+"znajdują się w prawej części obrazu, po boku zaznaczonych na szaro obrazów i "
+"tła. Zawiera 4 kwadratowe ikony ułożone poziomo, z tekstem \"Obserwuj:\" "
+"bezpośrednio nad nimi. W tym przykładzie, od lewej do prawej, kolejnymi "
+"przyciskami są logotypy Facebooka, Twittera, Pinteresta and LinkedIna. Każde "
+"logo jest białe na tle w jednolitym kolorze."
+
+#. custom follow buttons allow users select the color and shape of their follow buttons
+#: Used as a header in a card, on a page of cards about tools, and as the header on a page with settings just for this particular tool.
+msgid "tool_cflwh_name"
+msgstr "Dowolne przyciski obserwowania"
+
+#: Used as a header in a card, on a page of cards about tools, and as the header on a page with settings just for this particular tool.
+#: the follow header tool is a set of round follow buttons that float at the top of the page
+msgid "tool_smlfw_name"
+msgstr "Obserwuj nagłówek"
+
+#. horizontal follow buttons link to a users social account with square buttons lined up horizontally
+#: Used as a header in a card, on a page of cards about tools, and as the header on a page with settings just for this particular tool.
+msgid "tool_flwh_name"
+msgstr "Poziome przyciski obserwowania"
+
+#. vertical follow buttons link to a users social account with square buttons stacked vertically
+#: Used as a header in a card, on a page of cards about tools, and as the header on a page with settings just for this particular tool.
+msgid "tool_flwv_name"
+msgstr "Pionowe przyciski obserwowania"
+
+#. custom follow buttons allow users select the color and shape of their follow buttons
+#: Used as a description for the tool on a card, on a page of cards about tools
+msgid "tool_listing_cflwh_description"
+msgstr ""
+"Te dowolne przyciski obserwowania pozwalają dopasować wygląd i wrażenia do "
+"własnej strony internetowej."
+
+#: Used as a description for the tool on a card, on a page of cards about tools
+#: the follow header tool is a set of round follow buttons that float at the top of the page
+msgid "tool_listing_smlfw_description"
+msgstr ""
+"Zyskuj swoją społecznościową publiczność korzystając z pływających "
+"przycisków obserwowania pozwalających uzyskać więcej obserwujących."

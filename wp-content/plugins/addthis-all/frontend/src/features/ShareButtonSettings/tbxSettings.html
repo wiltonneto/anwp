@@ -1,0 +1,68 @@
+<!-- (Square) Sharing Buttons -->
+<div
+    tool-gallery-settings-page
+    save="save"
+    go-back="goBack"
+    feature-settings="shareButtons"
+    tool-pco="tbx"
+    tool-name-msgid="tool_tbx_name"
+    tool-description-msgid="tool_tbx_long_description"
+>
+    <div
+        auto-add-position-picker
+        ng-model="settings.elements"
+        default-class="addthis_sharing_toolbox"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div
+        icon-size-picker
+        ng-model="settings.size"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div ng-show="$parent.globalOptions.addthis_plugin_controls === 'AddThis'">
+        <label
+            for="addthis-{{toolPco}}-counts"
+            class="strong"
+            translate
+        >
+            tool_settings_share_show_counts
+        </label>
+        <div
+            tool-drop-down-yes-no
+            ng-model="settings.counts"
+            tool-pco="{{toolPco}}"
+            field-name="counts"
+        >
+        </div>
+    </div>
+
+    <div
+        share-service-picker
+        services="settings.services"
+        number-of-services="settings.numPreferredServices"
+        min="1"
+        max="10"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div ng-show="$parent.globalOptions.addthis_plugin_controls === 'AddThis'">
+        <div
+            share-count-threshold-picker
+            ng-model="settings.shareCountThreshold"
+            for="addthis-{{toolPco}}-share-count-threshold"
+        >
+        </div>
+    </div>
+
+    <div
+        get-the-code
+        widget-name="{{'tool_tbx_name'|translate}}"
+        shortcode="addthis_sharing_buttons"
+    >
+    </div>
+</div>

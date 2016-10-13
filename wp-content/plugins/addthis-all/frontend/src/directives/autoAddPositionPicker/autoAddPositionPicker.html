@@ -1,0 +1,53 @@
+<div ng-repeat="pageType in checkboxes">
+    <h3 translate>{{pageType.msgid}}</h3>
+
+    <div
+        class="checkbox-field"
+    >
+        <input
+            type="checkbox"
+            ng-model="pageType.above.value"
+            id="addthis-{{toolPco}}-{{pageType.above.cssClass}}"
+            name="addthis-{{toolPco}}-{{pageType.above.cssClass}}"
+            ng-selected="{{pageType.above.value !== false}}"
+            ng-change="reviewCheckboxes()"
+        />
+
+        <div
+            class="checkbox-details-container"
+        >
+            <label
+                for="addthis-{{toolPco}}-{{pageType.above.cssClass}}"
+                class="strong"
+                translate
+            >
+                {{pageType.above.msgid}}
+            </label>
+        </div>
+    </div>
+
+    <div
+        class="checkbox-field"
+    >
+        <input
+            type="checkbox"
+            ng-model="pageType.below.value"
+            id="addthis-{{toolPco}}-{{pageType.below.cssClass}}"
+            name="addthis-{{toolPco}}-{{pageType.below.cssClass}}"
+            ng-selected="{{pageType.below.value !== false}}"
+            ng-change="reviewCheckboxes()"
+        />
+
+        <div
+            class="checkbox-details-container"
+        >
+            <label
+                for="addthis-{{toolPco}}-{{pageType.below.cssClass}}"
+                class="strong"
+                translate
+            >
+                {{pageType.below.msgid}}
+            </label>
+        </div>
+    </div>
+</div>

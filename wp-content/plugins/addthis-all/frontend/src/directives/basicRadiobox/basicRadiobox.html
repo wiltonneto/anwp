@@ -1,0 +1,22 @@
+<div
+    for="{{name}}"
+>
+
+    <input
+        type="radio"
+        id="{{name}}"
+        name="{{name}"
+        ng-model="ngModel"
+        value="{{value}}"
+    />
+
+    <div class="radiobutton-details-container">
+        <label for="{{name}}">
+            {{label}}
+        </label>
+
+        <div class="transclude-here transclude-here-basic-radiobox">
+        </div>
+    </div>
+
+</div>

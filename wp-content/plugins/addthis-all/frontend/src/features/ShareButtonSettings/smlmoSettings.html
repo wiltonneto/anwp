@@ -1,0 +1,108 @@
+<!-- Mobile Toolbar -->
+<div
+    tool-gallery-settings-page
+    save="save"
+    go-back="goBack"
+    feature-settings="shareButtons"
+    tool-pco="smlmo"
+    tool-name-msgid="tool_smlmo_name"
+    tool-description-msgid="tool_smlmo_long_description"
+>
+    <label
+        class="strong"
+        translate
+    >
+        layers_position_header
+    </label>
+
+    <label for="addthis-{{toolPco}}-position-bottom">
+        <input
+            type="radio"
+            ng-model="settings.buttonBarPosition"
+            ng-value="'bottom'"
+            name="addthis-{{toolPco}}-position-bottom"
+            id="addthis-{{toolPco}}-position-bottom"
+        />
+        <span translate>layers_offset_location_bottom_label</span>
+    </label>
+    <label for="addthis-{{toolPco}}-position-top">
+        <input
+            type="radio"
+            ng-model="settings.buttonBarPosition"
+            ng-value="'top'"
+            name="addthis-{{toolPco}}-position-top"
+            id="addthis-{{toolPco}}-position-top"
+        />
+        <span translate>layers_offset_location_top_label</span>
+    </label>
+
+    <div
+        layers-theme-picker
+        ng-model="settings.buttonBarTheme"
+        tool-pco="{{toolPco}}"
+        themes="dark,gray,light"
+    >
+    </div>
+
+    <section
+        on-off-select
+        ng-model="settings.follow"
+        for="addthis-{{toolPco}}-follow"
+        label="{{'tool_settings_share_follow_toolbar_follow_label'|translate}}"
+    >
+    </section>
+
+    <div
+        ng-show="settings.follow === 'on'"
+        follow-service-picker
+        ng-model="settings.followServices"
+        tool-pco="{{toolPco}}"
+    >
+    </div>
+
+    <div ng-show="$parent.globalOptions.addthis_plugin_controls === 'AddThis'">
+        <label
+            for="addthis-{{toolPco}}-hideonhomepage"
+            class="strong"
+            translate
+        >
+            layers_hide_on_homepage_title
+        </label>
+        <p translate>layers_hide_on_homepage_description</p>
+        <div
+            tool-drop-down-yes-no
+            ng-model="settings.__hideOnHomepage"
+            tool-pco="{{toolPco}}"
+            field-name="hideonhomepage"
+        >
+        </div>
+
+        <div
+            layers-hide-on-urls
+            ng-model="settings.__hideOnUrls"
+            tool-pco="{{toolPco}}"
+        >
+        </div>
+
+        <label
+            for="addthis-{{toolPco}}-responsive"
+            class="strong"
+            translate
+        >
+            layers_responsive_width
+        </label>
+        <input
+            type="number"
+            min="0"
+            ng-model="settings.responsive"
+            name="addthis-{{toolPco}}-responsive"
+            id="addthis-{{toolPco}}-responsive"
+        />
+        <label
+            for="addthis-{{toolPco}}-responsive"
+        >
+        px
+        </label>
+    </div>
+</div>
+
