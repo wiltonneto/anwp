@@ -33,3 +33,16 @@ a {
  .post-detail--footer--meta--time, .post-detail--footer--meta--time:hover{
  	color: #bbb !important;
  }
+
+ #mobile-forced body .search-form input {
+  border-color: gray;
+ }
+
+ .page .container, .page .hentry {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mobile-forced body .fixed-bottom-menu .fa {
+    font-size: 22px;
+}
