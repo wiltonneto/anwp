@@ -44,3 +44,22 @@ a {
     width: 410px !important;
     max-width: 415px;
   }
+
+.ph-list-thumbnail {
+    width: 177px;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hunt-row .wp-post-image {
+    margin-right: 15px;
+    height: auto;
+    width: auto;
+    max-width: 177px;
+    margin-bottom: 5px;
+    max-height: 90px;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
