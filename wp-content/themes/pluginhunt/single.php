@@ -88,7 +88,7 @@ get_header();
                             <section class="post-detail--footer--meta">
                                 <a class="user-image post-detail--footer--meta--user-image" href="#">
                                     <span class="user-image">
-                                        <div class="user-image--badge v-hunter">H</div>
+                                        <div class="user-image--badge v-hunter">A</div>
                                         <?php 
                                         global $post;  
                                         $aid=$post->post_author;
